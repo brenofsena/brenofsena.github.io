@@ -1,11 +1,39 @@
-<header class="masthead">
-  <h1 class="masthead-title">
-    <a href="/">{{ site.title }}</a>
-  </h1>
-
-  <nav class="masthead-nav">
-    {% for page in site.pages %}
-      <a href="{{ page.url }}">{{ page.title }}</a>
-    {% endfor %}
-  </nav>
+<header>
+	<!-- Menu -->
+	<div class="menu">
+		<nav class="navbar navbar-default navbar-static-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button aria-controls="navbar" aria-expanded="false" class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" type="button">
+						<span class="sr-only">
+							Toggle navigation
+						</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="/">
+						<span class="logo">
+							{{site.title}}
+						</span>
+					</a>
+				</div>
+				<div class="navbar-collapse collapse" id="navbar">
+					<ul class="nav navbar-nav navbar-right">
+						{% for page in site.pages %}
+							{% unless page.exclude %}
+								{% if page.title %}
+								<li>
+									<a href="{{ page.url }}">{{ page.title }}</a>
+								</li>
+								{% endif %}
+							{% endunless %}
+						{% endfor %}
+					</ul>
+				</div>
+				<!--/.nav-collapse -->
+			</div>
+		</nav>
+	</div>
+	<!-- Fim Menu -->
 </header>
