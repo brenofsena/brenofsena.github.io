@@ -1,3 +1,15 @@
+$primary-color: #f0f4f4;
+$secondary-color: #2A3F54;
+$font-logo: 'Lobster', cursive;
+$font-site: 'Lato', sans-serif;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
 /* Reset */
 html, body {  
   width: 100%; 
@@ -6,21 +18,42 @@ html, body {
 }
 
 body{
-  background: #f0f4f4;
+  background: $primary-color;
 }
 
 /* Tipografia */
-p, a, h1, h2{
-  font-family: 'Lato', sans-serif;
+p, a, h1, h2, h3, time, ul, li{
+  font-family: $font-site;
 }
 
 p{
 	font-size: 1.6em;
 }
 
+a{
+  cursor: pointer;
+}
+
+h1, h2, h3{
+  font-weight: 700;
+}
+
+h3{
+  font-style: italic;
+}
+
+ul {
+  font-size: 1.5em;
+}
+
+time{
+  font-size: 1.2em;
+}
+
+/* Imagens */
 img {
   display: block;
   max-width: 100%;
   margin: 0 0 1rem;
-  border-radius: 5px;
+  @include border-radius(5px);
 }

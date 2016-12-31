@@ -1,8 +1,12 @@
 /* Menu */
-.menu .logo{
-  font-family: 'Lobster', cursive;
+.menu ul{
   font-size: 1.2em;
-  color: #2A3F54;
+}
+
+.menu .logo{
+  font-family: $font-logo;
+  font-size: 1.2em;
+  color: $secondary-color;
 }
 .menu .navbar{
   background: transparent;
@@ -11,29 +15,28 @@
 .menu .navbar-default .navbar-nav>a:hover{
   font-weight: bold;
   background: transparent;
-  color: #2A3F54;
+  color: $secondary-color;
 }
 .menu .navbar-header .navbar-toggle{
   background: transparent;
   border: none;
 }
-.menu .navbar-header .navbar-toggle:hover,
-.menu .navbar-header .navbar-toggle:focus{
-  background: none;
-  border: none;
+.menu .navbar-header .navbar-toggle:hover{
+    &:focus{
+      background: none;
+      border: none;
+    }
 }
 .menu .navbar-collapse{
   border: none;
 }
 .menu .navbar-toggle .icon-bar{
-  background: #2A3F54;
+  background: $secondary-color;
 }
 
 /* Cards */
 .cards h2{
   text-align: center;
-  font-weight: bold;
-  margin: 0 0 20px;
 }
 .card{
   background: #fff;
@@ -42,41 +45,55 @@
   border-radius: 5px;
   border: solid 1px #ddd;
   margin: 20px 0;
-}
-.card i{
-  margin: 20px 0;
-  font-size: 5.0em;
-}
-.card p{
-  text-align: justify;
-}
 
-.card a{
-  text-decoration: none;
+  a{
+    text-decoration: none;
+    color: $secondary-color;
+  }
 }
-
 /* Post */
 .post-header{
   padding: 50px;
   text-align:center;
   color: #333;
   width: 100%;
+
+  h1{
+    font-size: 3.75rem;
+  }
 }
 
-.post-header h1{
-  font-size: 3.75rem;
-  font-weight: 700;
+.post a{
+  text-decoration: none;
+  border-bottom: 2px dashed;
+}
+
+/* Social */
+.social{
+  text-align: center;
+  font-size: 2em;
+  margin: 20px 0;
+
+  i{
+    color: $secondary-color;
+  }
+  a{
+    text-decoration: none;
+    margin: 5px;
+  }
 }
   
 /* Footer */
 .footer{
   clear: both;
   margin: 20px 0;
-}
-.footer p{
-  text-align: center;
-  font-size: 1.2em;
-}
-.footer i{
-  color: tomato;
+
+  p{
+    text-align: center;
+    font-size: 1.2em;
+  }
+
+  i{
+    color: tomato;
+  }
 }
