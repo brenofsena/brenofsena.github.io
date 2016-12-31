@@ -18,6 +18,10 @@ e alguma linguagem de programação e foram evoluindo quando sentiam a necessida
 É muito comum ficarmos desesperados quando estamos aprendendo a trabalhar com um framework por exemplo e é lançado um novo com muito mais recursos <strike>principalmente se for um framework JavaScript</strike> mas é preciso manter a calma
 respirar fundo e lembrar que se você teve uma boa base você será capaz de aprender qualquer tecnologia nova em questão de semanas e para isso vou deixar aqui um pequeno guia para você começar a se tornar um desenvolvedor web.
 
+Para tudo e vem comigo!
+
+![Vem pra dança](https://media.giphy.com/media/l0MYOnps6gMbRvnb2/giphy.gif)
+
 ### HTML E CSS
 
 Para começar você precisa aprender o básico de HTML e CSS afinal isso é a base da internet.
