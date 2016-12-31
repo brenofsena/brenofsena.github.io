@@ -28,7 +28,7 @@ Para começar você precisa aprender o básico de HTML e CSS afinal isso é a ba
 
 - [Maujor](http://www.maujor.com/){:target="_blank"}
 - [Tableless](https://tableless.com.br/){:target="_blank"}
-- [HTML5 e CSS3 - Domine a web do futuro](https://www.casadocodigo.com.br/products/livro-html-css)
+- [HTML5 e CSS3 - Domine a web do futuro](https://www.casadocodigo.com.br/products/livro-html-css){:target="_blank"}
 
 Depois você pode começar a utilizar frameworks CSS como o Bootstap mas nesse momento é fundamental entender todos os conceitos básicos sobre HTML e CSS.
 
@@ -53,13 +53,13 @@ Aprenda um pré-processador CSS isso vai te ajudar a escrever CSS mais rápido e
 
 Minificar CSS, JS e imagens é um trabalho um pouco chato que tal utilizar uma ferramenta que faça isso por você?
 
-- [Grunt vs Gulp](https://www.youtube.com/playlist?list=PLQCmSnNFVYnTkUx1tVVPumohXVMDwfQcV){:targe="_blank"}
+- [Grunt vs Gulp](https://www.youtube.com/playlist?list=PLQCmSnNFVYnTkUx1tVVPumohXVMDwfQcV){:target="_blank"}
 
 ### Gerenciadores de Dependências
 
 Quando você precisa de uma biblioteca como o jQuery é comum você ir até o site e fazer o download da mesma porém isso se torna muito chato quando você começa a trabalhar com várias dependências, o mais legal é que existem ferramentas que fazem isso pra você.
 
--[Bower](https://www.youtube.com/playlist?list=PLQCmSnNFVYnS1vVHVumHKAc8RLcSK-Rl2){:target="_blank"}
+- [Bower](https://www.youtube.com/playlist?list=PLQCmSnNFVYnS1vVHVumHKAc8RLcSK-Rl2){:target="_blank"}
 
 ### Versionamento
 
@@ -88,7 +88,7 @@ E para finalizar alguns blogs e canais que eu sigo.
 - [Willian Justen](https://willianjusten.com.br/){:target="_blank"}
 - [Nomadev](http://nomadev.com.br/){:target="_blank"}
 - [Rodrigo Branas](https://www.youtube.com/rodrigobranas){:target="_blank"}
-- [Webschool](https://www.youtube.com/channel/UCKdo1RaF8gzfhvkOdZv_ojg){:targe="_blank"}
+- [Webschool](https://www.youtube.com/channel/UCKdo1RaF8gzfhvkOdZv_ojg){:target="_blank"}
 - [Curso em Vídeo](https://www.youtube.com/cursoemvideo){:target="_blank"}
 
 Bom, isso é o básico para você se tornar um bom desenvolvedor web mas isso depende da sua dedicação, vá ao máximo de eventos que puder, veja palestras, participe de comunidades no facebook, contribua para projetos open-source e tenho certeza que irá se tornar um excelente desenvolvedor.
