@@ -5,6 +5,8 @@ date: 2016-12-31 11:08:57
 tags: desenvolvimento carreira
 ---
 
+## Introdução
+
 Esse é meu primeiro post e sei que existem vários sobre esse mesmo assunto, porém a ideia é
 fazer um compilado de artigos, cursos e livros que utilizei na minha jornada como desenvolvedor além de
 dar algumas dicas para quem está iniciando.

@@ -3,16 +3,21 @@ layout: default
 comments: true
 # other options
 ---
+<header class="post-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+					<time>{{ page.date | date: "%d/%m/%Y" }}</time>
+					<h1>{{ page.title }}</h1>
+			</div>
+		</div>
+	</div>
+</header>
 
 <div class="container">
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
 			<article>
-				<header>
-					<time>{{ page.date | date: "%d/%m/%Y" }}</time>
-					<h1>{{ page.title }}</h1>
-				</header>
-				
 				<div class="post-content">
 					{{ content }}
 				</div>

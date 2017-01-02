@@ -1,13 +1,9 @@
 {% include head.html %}
 <body>
-  <div class="container">
-  	<div class="row">
-	    {% include header.html %}
-	    
-	    {{ content }}
+  {% include header.html %}
+  
+  {{ content }}
 
-	    {% include footer.html %}
-    </div>
-  </div>
+  {% include footer.html %}
 </body>
 </html>
