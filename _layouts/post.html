@@ -4,34 +4,36 @@ comments: true
 # other options
 ---
 
-<article class="post">
-	<div class="container">
-		<div class="row">
-			<header class="post-header">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<time>{{ page.date | date: "%d/%m/%Y" }}</time>
-							<h1>{{ page.title }}</h1>
-						</div>
-					</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+			<article>
+				<header>
+					<time>{{ page.date | date: "%d/%m/%Y" }}</time>
+					<h1>{{ page.title }}</h1>
+				</header>
+				
+				<div class="post-content">
+					{{ content }}
 				</div>
-			</header>
 
-			<div class="col-md-8 col-md-offset-2">
-				{{ content }}
+				<footer>
+					<div class="col-md-12">
+						{% include share.html %}
+					</div>
 
-				<div id="disqus_thread"></div>
-				<script>
-				(function() { // DON'T EDIT BELOW THIS LINE
-					var d = document, s = d.createElement('script');
-					s.src = '//breno-sena.disqus.com/embed.js';
-					s.setAttribute('data-timestamp', +new Date());
-					(d.head || d.body).appendChild(s);
-				})();
-				</script>
-				<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-			</div>
+					<div id="disqus_thread"></div>
+					<script>
+					(function() { // DON'T EDIT BELOW THIS LINE
+						var d = document, s = d.createElement('script');
+						s.src = '//breno-sena.disqus.com/embed.js';
+						s.setAttribute('data-timestamp', +new Date());
+						(d.head || d.body).appendChild(s);
+					})();
+					</script>
+					<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+				</footer>	
+			</article>
 		</div>
 	</div>
-</article>
+</div>

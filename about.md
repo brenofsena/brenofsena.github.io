@@ -13,6 +13,7 @@ da programação, atualmente sou estudante de Sistemas Para Internet e nas horas
 
 - HTML5
 - CSS (SASS, Stylus)
+- CSS Frameworks (Bootstrap)
 - JavaScript
 - jQuery
 - Automatizadores (Gulp)
