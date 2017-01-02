@@ -54,10 +54,14 @@
   width: 100%;
   height: auto;
   padding: 100px 0;
-  background: url('/assets/img/bg-header.jpg') fixed;
+  background: url('/assets/img/bg-header.jpg') no-repeat fixed;
+  filter: grayscale(70%);
   h1, time{
    color: #fff;
    display: block;
+  }
+  h1{
+    font-size: 3.75rem;
   }
 }
 
