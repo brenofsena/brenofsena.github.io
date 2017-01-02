@@ -92,7 +92,7 @@ E para finalizar alguns blogs e canais que eu sigo.
 - [Nomadev](http://nomadev.com.br/){:target="_blank"}
 - [Rodrigo Branas](https://www.youtube.com/rodrigobranas){:target="_blank"}
 - [Webschool](https://www.youtube.com/channel/UCKdo1RaF8gzfhvkOdZv_ojg){:target="_blank"}
-- [CSS Cast Show](https://www.youtube.com/channel/UC9d_htYmYYFUXB2vBKx4NgA){:target="_blank"}
+- [CSS CastShow](https://www.youtube.com/channel/UC9d_htYmYYFUXB2vBKx4NgA){:target="_blank"}
 - [Curso em Vídeo](https://www.youtube.com/cursoemvideo){:target="_blank"}
 
 Bom, isso é o básico para você se tornar um bom desenvolvedor web mas isso depende da sua dedicação, vá ao máximo de eventos que puder, veja palestras, participe de comunidades no facebook, contribua para projetos open-source e tenho certeza que irá se tornar um excelente desenvolvedor.
