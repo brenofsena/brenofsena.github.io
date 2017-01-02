@@ -51,6 +51,7 @@
     color: $secondary-color;
   }
 }
+
 /* Post */
 .post-header{
   padding: 50px;
@@ -96,4 +97,14 @@
   i{
     color: tomato;
   }
+}
+
+/* Tags */
+
+.tags{
+  border: solid 1px $secondary-color;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 5px;
+  display: inline; 
 }

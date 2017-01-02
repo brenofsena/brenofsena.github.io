@@ -2,6 +2,7 @@
 title: Como se tornar um desenvolvedor web
 layout: post
 date: 2016-12-31 11:08:57
+tags: desenvolvimento carreira
 ---
 
 Esse é meu primeiro post e sei que existem vários sobre esse mesmo assunto, porém a ideia é
