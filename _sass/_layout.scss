@@ -55,6 +55,7 @@
   height: auto;
   padding: 100px 0;
   background: url('/assets/img/bg-header.jpg') no-repeat fixed;
+  @include background-size(cover);
   filter: grayscale(70%);
   h1, time{
    color: #fff;
