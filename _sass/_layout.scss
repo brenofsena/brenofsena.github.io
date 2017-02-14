@@ -37,15 +37,24 @@
 /* Cards */
 .card{
   background: #fff;
-  padding: 20px;
-  text-align: center;
-  border-radius: 5px;
+  padding: 1em;
+  border-radius: 3px;
   border: solid 1px #ddd;
   margin: 20px 0;
-
+  transition: all .3s;
+  h2{
+    font-size: 1.6em;
+  }
+  p{
+    font-size: 1.2em;
+  }
   a{
     text-decoration: none;
     color: $secondary-color;
+  }
+  &:hover{
+    box-shadow: 1px 2px 10px #ddd;
+    transition: all .3s;
   }
 }
 
@@ -66,11 +75,20 @@
   }
 }
 
+.post-content{
+  ul li{
+    margin: 1em 0;
+  }
 
-.post-content a{
-  border-bottom: dashed 2px $secondary-color;
-  text-decoration: none;
-  color: $secondary-color;
+  h3{
+    padding: 1em 0 0 0;
+  }
+
+  a{
+    border-bottom: dashed 2px $secondary-color;
+    text-decoration: none;
+    color: $secondary-color;
+  }
 }
 
 /* Social */
@@ -107,8 +125,8 @@
 
 .tags{
   border: solid 1px $secondary-color;
-  border-radius: 5px;
-  padding: 3px;
+  border-radius: 3px;
+  padding: 0.3em;
   margin: 10px 0;
   display: inline-block; 
   color: $secondary-color;

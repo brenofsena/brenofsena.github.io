@@ -1,7 +1,7 @@
 $primary-color: #fff;
 $secondary-color: #333;
 $font-logo: 'Lobster', cursive;
-$font-site: 'Lato', sans-serif;
+$font-site: 'Open Sans', sans-serif;
 
 @mixin background-size($size) {
   -webkit-background-size: $size;
@@ -34,7 +34,8 @@ p, a, h1, h2, h3, time, ul, li{
 
 p{
 	font-size: 1.4em;
-  color: #777;
+  color: #576366;
+  padding: 0.9em 0;
 }
 
 a{
@@ -43,7 +44,7 @@ a{
 
 h1, h2, h3{
   font-weight: 700;
-  color: #333;;
+  color: $secondary-color;
 }
 
 h1{
@@ -60,12 +61,12 @@ h3{
 
 ul{
   font-size: 1.3em;
-  color: #777;
+  color: #576366;
 }
 
 time{
-  font-size: 1.2em;
-  color: $secondary-color;
+  font-size: 1.1em;
+  color: #777;
 }
 
 /* Imagens */

@@ -21,8 +21,9 @@ da programação, atualmente sou estudante de Sistemas Para Internet e nas horas
 
 ### Back-End
 
-- PHP (Laravel)
+- PHP (OOP, Laravel, Composer)
 - C#
+- Python
 - Bancos de Dados (MySQL, SQL Server)
 
 ### CMS
@@ -35,7 +36,10 @@ da programação, atualmente sou estudante de Sistemas Para Internet e nas horas
 
 ### Ferramentas
 
-- Jekyll
+- Sublime Text
+- Netbeans
+- PyCharm
+- Terminal (Oh-My-Zsh)
 
 ### S.O.
 

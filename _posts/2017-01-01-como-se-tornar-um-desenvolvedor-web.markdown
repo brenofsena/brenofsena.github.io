@@ -1,8 +1,9 @@
 ---
 title: Como se tornar um desenvolvedor web
 layout: post
-date: 2016-12-31 11:08:57
+date: 2017-01-01 11:08:57
 tags: desenvolvimento carreira
+introduction: "Alguns passos que podem te ajudar a se tornar um desenvolver web."
 ---
 
 ## Introdução
@@ -11,7 +12,7 @@ Esse é meu primeiro post e sei que existem vários sobre esse mesmo assunto, po
 fazer um compilado de artigos, cursos e livros que utilizei na minha jornada como desenvolvedor além de
 dar algumas dicas para quem está iniciando.
 
-Bom, é final de ano e quando olho para trás vejo que evolui bastante como dev apesar de ainda não ter alcançado
+Bom, é começo de ano e quando olho para trás vejo que evolui bastante como dev apesar de ainda não ter alcançado
 todos os meus objetivos ainda assim me sinto feliz com os resultados obtidos.
 
 O caminho para se tornar um desenvolvedor é árduo por existirem diversas tecnologias as vezes nos sentimos perdidos sem um norte em meio a uma guerra de frameworks e padrões de projeto, mas já parou pra pensar que
