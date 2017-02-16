@@ -8,15 +8,20 @@
   font-size: 1.6em;
   color: $title-color;
 }
+
 .menu .navbar{
   background: transparent;
   border: none;
+  li a{
+    font-size: 0.9em;
+    color: $title-color;
+    &:hover{
+      transition: all 2s;
+      color: #333;
+    }
+  }
 }
-.menu .navbar-default .navbar-nav>a:hover{
-  font-weight: bold;
-  background: transparent;
-  color: $title-color;
-}
+
 .menu .navbar-header .navbar-toggle{
   background: transparent;
   border: none;
