@@ -6,7 +6,7 @@
 .menu .logo{
   font-family: $font-logo;
   font-size: 1.6em;
-  color: $secondary-color;
+  color: $title-color;
 }
 .menu .navbar{
   background: transparent;
@@ -15,7 +15,7 @@
 .menu .navbar-default .navbar-nav>a:hover{
   font-weight: bold;
   background: transparent;
-  color: $secondary-color;
+  color: $title-color;
 }
 .menu .navbar-header .navbar-toggle{
   background: transparent;
@@ -31,7 +31,7 @@
   border: none;
 }
 .menu .navbar-toggle .icon-bar{
-  background: $secondary-color;
+  background: $title-color;
 }
 
 /* Cards */
@@ -50,7 +50,7 @@
   }
   a{
     text-decoration: none;
-    color: $secondary-color;
+    color: $title-color;
   }
   &:hover{
     box-shadow: 1px 2px 10px #ddd;
@@ -66,12 +66,15 @@
   background: url('/assets/img/bg-header.jpg') no-repeat fixed;
   @include background-size(cover);
   filter: grayscale(70%);
-  h1, time{
-   color: #fff;
-   display: block;
-  }
   h1{
-    font-size: 3.75rem;
+    font-size: 3em;
+    color: #fff;
+    display: block;
+    font-weight: 800;
+    font-style: normal;
+  }
+  time{ 
+    color: #fff; 
   }
 }
 
@@ -85,9 +88,9 @@
   }
 
   a{
-    border-bottom: dashed 2px $secondary-color;
+    border-bottom: dashed 2px $title-color;
     text-decoration: none;
-    color: $secondary-color;
+    color: $title-color;
   }
 }
 
@@ -98,7 +101,7 @@
   margin: 20px 0;
 
   i{
-    color: $secondary-color;
+    color: $title-color;
   }
   a{
     text-decoration: none;
@@ -124,12 +127,12 @@
 /* Tags */
 
 .tags{
-  border: solid 1px $secondary-color;
+  border: solid 1px $title-color;
   border-radius: 3px;
   padding: 0.3em;
   margin: 10px 0;
   display: inline-block; 
-  color: $secondary-color;
+  color: $title-color;
 }
 
 
@@ -141,7 +144,7 @@
   }
   a{
     margin: 10px;
-    color: $secondary-color;
+    color: $title-color;
     &:hover{
       text-decoration: none;
     }
