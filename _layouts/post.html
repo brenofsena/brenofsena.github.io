@@ -3,42 +3,38 @@ layout: default
 comments: true
 # other options
 ---
-<header class="post-header">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2">
-					<time>{{ page.date | date_to_string }}</time>
-					<h1>{{ page.title }}</h1>
-			</div>
+
+<article>
+	<header class="post-header">
+		<picture class="picture">
+			<img src="{{ page.image }}" alt="{{ page.alt }}">
+		</picture>
+		<div class="wrapper">
+			<time>{{ page.date | date_to_string }}</time>
+			<h1>{{ page.title }}</h1>
+		</div>
+	</header>
+
+	<div class="post-content">
+		<div class="wrapper">
+			{{ content }}
 		</div>
 	</div>
-</header>
 
-<div class="container">
-	<div class="row">
-		<div class="col-md-8 col-md-offset-2">
-			<article>
-				<div class="post-content">
-					{{ content }}
-				</div>
+	<footer>
+		<div class="wrapper">
+			{% include share.html %}
 
-				<footer>
-					<div class="col-md-12">
-						{% include share.html %}
-					</div>
-
-					<div id="disqus_thread"></div>
-					<script>
-					(function() { // DON'T EDIT BELOW THIS LINE
-						var d = document, s = d.createElement('script');
-						s.src = '//breno-sena.disqus.com/embed.js';
-						s.setAttribute('data-timestamp', +new Date());
-						(d.head || d.body).appendChild(s);
-					})();
-					</script>
-					<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-				</footer>	
-			</article>
+			<div id="disqus_thread"></div>
+			<script>
+			(function() { // DON'T EDIT BELOW THIS LINE
+				var d = document, s = d.createElement('script');
+				s.src = '//breno-sena.disqus.com/embed.js';
+				s.setAttribute('data-timestamp', +new Date());
+				(d.head || d.body).appendChild(s);
+			})();
+			</script>
+			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 		</div>
-	</div>
-</div>
+	</footer>	
+</article>
