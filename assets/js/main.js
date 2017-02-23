@@ -1,5 +1,8 @@
 $(document).ready(function(){
 	$('.open-nav').click(function(){
-		$('.header').toggleClass('menu-active');
+		$('.header').addClass('menu-active');
+	});
+	$('.close-nav').click(function(){
+		$('.header').removeClass('menu-active');
 	});
 });

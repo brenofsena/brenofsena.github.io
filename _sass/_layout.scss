@@ -1,3 +1,38 @@
+.logo{
+  color: #fff;
+  font-family: $font-logo;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+.logo::after{
+  content:"Breno Sena";
+}
+
+.menu-mobile{
+  display: none;
+  .logo{
+    color: $primary-color;
+  }
+  .open-nav{
+    border-radius: 3px;
+    background: transparent;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    .icon{
+      display: block;
+      width: 30px;
+      height: 3px;
+      background: $primary-color;
+      margin: 3px;
+    }
+    &:focus{
+      outline: none;
+    }
+  }
+}
+
 /* Header */
 .header{
   width: 20%;
@@ -7,15 +42,12 @@
   position: fixed;
   padding: 40px;
 
-  .logo{
+  .close-nav{
+    position: absolute;
+    top: 20px;
+    right: 42px;
     color: #fff;
-    font-family: $font-logo;
-    font-size: 1.6em;
-    text-decoration: none;
-  }
-
-  .logo::after{
-    content:"Breno Sena";
+    font-size: 2em;
   }
 
   .menu{
@@ -167,31 +199,10 @@
   }
 }
 
-.open-nav{
-  display: none;
-  border-radius: 3px;
-  background: #ddd;
-  padding: 5px;
-  border: none;
-  position: fixed;
-  top: 10px;
-  right: 20px;
-  z-index: 10;
-  cursor: pointer;
-  .icon{
-    display: block;
-    width: 30px;
-    height: 3px;
-    background: $primary-color;
-    margin: 3px;
-  }
-  &:focus{
-    outline: none;
-  }
-}
 
+/* Mobile */
 @media screen and (max-width: 640px){
-  .open-nav{ display: block; }
+  .menu-mobile{ display: block; }
   .header{
     display: none;
     width: 100%;
@@ -199,12 +210,16 @@
     opacity: 0.9;
     z-index: 9;
     .logo::after{
-      content:"BS";
+      content:"";
     }
   }
   .main{
     left: 0;
   }
+}
+
+@media screen and (min-width: 641px){
+  .close-nav{ display: none; }
 }
 
 .menu-active{ display: block; }
