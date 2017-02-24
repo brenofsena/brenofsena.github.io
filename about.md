@@ -18,6 +18,7 @@ da programação, atualmente sou estudante de Sistemas Para Internet e nas horas
 - jQuery
 - Automatizadores (Gulp)
 - Dependências (Bower)
+- Geradores Estáticos (Jekyll)
 
 ### Back-End
 
