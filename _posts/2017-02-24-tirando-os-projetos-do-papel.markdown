@@ -14,7 +14,7 @@ alt: tirando as idéias do papel
 
 Nós desenvolvedores geralmente temos um fluxo muito grande de informação no nosso dia a dia que gera milhares de ideias seja querer criar uma nova plataforma, um novo app ou melhorar algo que já exista.
 
-Temos o extinto natural de querer criar soluções o tempo todo, seja para nós mesmos ou para outras pessoas, mas muitas vezes acumulamos projetos que começamos e nunca terminamos.
+Temos o instinto natural de querer criar soluções o tempo todo, seja para nós mesmos ou para outras pessoas, mas muitas vezes acumulamos projetos que começamos e nunca terminamos.
 
 ## Parar de procrastinar é o começo
 
