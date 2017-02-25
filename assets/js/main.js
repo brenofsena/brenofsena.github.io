@@ -8,8 +8,8 @@ function removeClass(el, className){
 
 window.onload = function(){
 	var open = document.getElementById('open-nav'),
-		close = document.getElementById('close-nav'),
-		header = document.getElementById('header');
+	close = document.getElementById('close-nav'),
+	header = document.getElementById('header');
 
 	open.addEventListener('click', function(){
 		addClass(header, 'menu-active');
@@ -19,3 +19,5 @@ window.onload = function(){
 		removeClass(header, 'menu-active');
 	});
 };
+
+hljs.initHighlightingOnLoad();

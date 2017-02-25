@@ -61,9 +61,9 @@
   .social ul li{
     list-style: none;
     display: inline-block;
-    transition: all 2s;
+    transition: all 1s;
     &:hover{
-      transition: all 2s;
+      transition: all 1s;
       transform: scale(1.2);
     }
     a{
@@ -85,14 +85,14 @@
   border-radius: 3px;
   border: solid 1px #ddd;
   margin-top: 20px;
-  transition: all 2s;
+  transition: all 1s;
   a{
     text-decoration: none;
     color: $primary-color;
   }
   &:hover{
     box-shadow: 1px 2px 10px #ddd;
-    transition: all 2s;
+    transition: all 1s;
   }
 }
 
@@ -146,6 +146,18 @@
       color: $primary-color;
     }
   }
+  blockquote{
+    border-left: 3px solid $primary-color; 
+    padding: 0 20px;
+    p{
+      color: #777;
+    }
+  }
+  em{
+    color: #777;
+    font-style: normal;
+    font-weight: 600;
+  }
 }
 
 /* Footer */
@@ -157,9 +169,9 @@
   }
   i{
     color: tomato;
-    transition: all 2s;
+    transition: all 1s;
     &:hover{
-      transition: all 2s;
+      transition: all 1s;
       transform: scale(1.2);
     }
   }
@@ -177,15 +189,22 @@
 
 
 /* Compartilhar */
-.share{
+.share{ text-align: center; }
+.share ul li{
+  display: inline-block;
+  list-style: none;
   text-align: center;
+  transition: all 1s;
+  &:hover{
+    transition: all 1s;
+    transform: scale(1.2);
+  }
   a{
     margin: 10px;
     color: $primary-color;
     text-decoration: none;
-    &:hover{
-      text-decoration: none;
-    }
+    transition: all 2s;
+    &:hover,
     &:focus{
       text-decoration: none;
     }

@@ -2,8 +2,10 @@
 title: Como se tornar um desenvolvedor web
 layout: post
 date: 2017-01-01 11:08:57
-tags: desenvolvimento carreira
-introduction: "Alguns passos que podem te ajudar a se tornar um desenvolver web."
+tags: 
+- desenvolvimento 
+- carreira
+intro: "Alguns passos que podem te ajudar a se tornar um desenvolver web."
 image: "assets/img/post-1.jpg"
 alt: "Desenvolvimento web"
 ---
