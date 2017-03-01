@@ -163,6 +163,10 @@
 /* Footer */
 .footer{
   clear: both;
+  a{
+    text-decoration: none;
+    color: $primary-color;
+  }
   p{
     text-align: center;
     font-size: 1.2em;
