@@ -23,7 +23,7 @@ Fazendo uma pesquisa rápida no tio google temos a seguinte definição da palav
 	<p>"transferir para outro dia ou deixar para depois; adiar, delongar, postergar, protrair."</p>
 </blockquote>
 
-Ou seja quando deixamos de fazer pelo menos alguma coisa por menor que seja para dar continuidade aos nossos projetos estamos procrastinando <em>"deixando para depois"</em> mas porque fazemos isso?
+Ou seja quando deixamos de fazer pelo menos alguma coisa por menor que seja para dar continuidade aos nossos projetos estamos procrastinando <em>deixando para depois</em> mas porque fazemos isso?
 
 Começamos totalmente empolgados com uma ideia gigantesca em mente, queremos mudar o mundo da noite para o dia mas de repente aquele gás inicial começa a se esvair até desaparecer por completo, e isso acontece justamente porque queremos fazer tudo de uma única vez.
 
