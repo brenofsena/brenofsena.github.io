@@ -37,7 +37,6 @@ Olá, me chamo Breno e sou a mente por trás desse blog onde compartilho algumas
 
 - Sublime Text
 - Netbeans
-- PyCharm
 - Terminal (Oh-My-Zsh)
 
 ### S.O.
