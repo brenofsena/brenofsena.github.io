@@ -4,8 +4,7 @@ title: Sobre mim
 permalink: /sobre/
 ---
 
-Meu nome é Breno Sena, nascido em São Paulo desde muito cedo já sabia que o meu desejo era trabalhar com computação, em 2014 conclui o curso Técnico em Informática pelo Senac o que me abriu as portas para o mundo
-da programação, atualmente sou estudante de Sistemas Para Internet e nas horas vagas gosto de aprimorar minhas habilidades como desenvolvedor.
+Olá, me chamo Breno e sou a mente por trás desse blog onde compartilho algumas informações sobre desenvolvimento web, aprendi a programar em C# em um curso técnico em informática pelo Senac e hoje sou estudante de Sistemas Para Internet na mesma instituição, sou desenvolver web e atualmente trabalho com PHP, tenho como hobbie estudar novas linguagens de programação e design patterns, abaixo você pode conhecer algumas das minhas habilidades.
 
 ## Habilidades
 
@@ -24,7 +23,6 @@ da programação, atualmente sou estudante de Sistemas Para Internet e nas horas
 
 - PHP (OOP, Laravel, Composer)
 - C#
-- Python
 - Bancos de Dados (MySQL, SQL Server)
 
 ### CMS
