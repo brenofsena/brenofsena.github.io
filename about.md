@@ -16,7 +16,7 @@ Olá, me chamo Breno e sou a mente por trás desse blog onde compartilho algumas
 - JavaScript
 - jQuery
 - Automatizadores (Gulp)
-- Dependências (Bower)
+- Dependências (Bower, NPM)
 - Geradores Estáticos (Jekyll)
 
 ### Back-End
@@ -38,6 +38,7 @@ Olá, me chamo Breno e sou a mente por trás desse blog onde compartilho algumas
 - Sublime Text
 - Netbeans
 - Terminal (Oh-My-Zsh)
+- Trello
 
 ### S.O.
 
