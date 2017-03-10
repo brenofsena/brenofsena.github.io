@@ -19,7 +19,7 @@ Temos o instinto natural de querer criar soluções o tempo todo, seja para nós
 ## Parar de procrastinar é o começo
 
 Fazendo uma pesquisa rápida no tio google temos a seguinte definição da palavra procrastinar 
-<blockquote>
+<blockquote cite="http://google.com.br">
 	<p>"transferir para outro dia ou deixar para depois; adiar, delongar, postergar, protrair."</p>
 </blockquote>
 
