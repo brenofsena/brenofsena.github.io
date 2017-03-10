@@ -38,5 +38,3 @@ Eis então a grande pergunta que todo dev deve se fazer pelo menos alguma vez du
 Todo esse ecossistema foi criado para facilitar o nosso dia a dia não somos obrigados a utilizar tudo mas em algum momento sentiremos essa necessidade e então é a hora de começar a usar essas ferramentas, não é porque está na moda usar React que você vai adicionar uma complexidade extra no seu projeto implementado esse framework somente para fazer uma pequena parte da aplicação, é preciso avaliar cada situação e então definir quais tecnologias utilizar.
 
 Desenvolver é uma arte mas não precisa ser algo tão complexo a ponto de ter um canhão para matar uma formiga, siga o exemplo do artista que conhece milhares de técnicas mas sabe qual utilizar em cada situação.
-
-<em>Fonte de pesquisa:</em> [Wikipedia - World Wide Web](https://pt.wikipedia.org/wiki/World_Wide_Web){:target="_blank"}
