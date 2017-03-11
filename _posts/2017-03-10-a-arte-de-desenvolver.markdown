@@ -34,16 +34,16 @@ Do lado do back-end começaram a surgir novos conceitos como o <em>MVC</em>, e e
 
 Depois de todo esse arsenal de desenvolvimento ainda tinha espaço para mais afinal somos desenvolvedores e sedentos por automatizar as coisas, logo começaram a perceber que existiam algumas tarefas muito repetitivas e rotineiras como baixar bibliotecas, otimizar imagens, minificar arquivos e ficar subindo arquivos via FTP. 
 
-Logo surgiram mais ferramentas para auxiliar no nosso dia a dia como o <em>Git</em> para versionar nosso código, <em>Grunt e Gulp</em> para automatizar nossas tarefas e <em>NPM e Bower</em> para gerenciar dependências e mais algumas ferramentas para deploy.
+Logo surgiram mais ferramentas para auxiliar o nosso dia a dia como o <em>Git</em> para versionar nosso código, <em>Grunt e Gulp</em> para automatizar nossas tarefas e <em>NPM e Bower</em> para gerenciar dependências e mais algumas ferramentas para deploy.
 
 Nesse ponto o jQuery que foi tão popular começa a se tornar obsoleto e cada vez menos utilizado pois, surgem frameworks para trabalhar com views de maneira melhor e mais eficiente os famosos <em>AngularJS, Ember, KnockoutJS, VueJS e React</em> e provavelmente enquanto escrevo esse post mais algum deve estar sendo criado.
 
 ## Será que precisamos de tudo isso?
 
-Então a grande pergunta que todo dev deve se fazer pelo menos alguma vez durante a sua jornada como Jedi é <em>Pra que raios eu preciso de tudo isso pra fazer uma aplicação?</em> e foi exatamente essa pergunta que eu me fiz quando um colega de faculdade me perguntou o que eu precisava para desenvolver, só o editor de código e um browser já não são mais suficientes? 
+Então a grande pergunta que todo dev deve se fazer pelo menos alguma vez durante a sua jornada como Jedi é <em>pra que raios eu preciso de tudo isso pra fazer uma aplicação?</em> e foi exatamente essa pergunta que eu me fiz quando um colega de faculdade me perguntou o que eu precisava para desenvolver, só o editor de código e um browser já não são mais suficientes? 
 
 ## Seja um artista na hora de desenvolver
 
-Todo esse ecossistema foi criado para facilitar o nosso dia a dia não somos obrigados a utilizar tudo mas em algum momento sentiremos essa necessidade e então é a hora de começar a usar essas ferramentas, não é porque está na moda usar React que você vai adicionar uma complexidade extra no seu projeto implementado esse framework somente para fazer uma pequena parte da aplicação, é preciso avaliar cada situação e então definir quais tecnologias utilizar.
+Veja bem, todo esse ecossistema foi criado para facilitar o nosso dia a dia não somos obrigados a utilizar tudo mas em algum momento sentiremos essa necessidade e então é a hora de começar a usar essas ferramentas, não é porque está na moda usar React que você vai adicionar uma complexidade extra no seu projeto implementado esse framework somente para fazer uma pequena parte da aplicação, é preciso avaliar cada situação e então definir quais tecnologias utilizar.
 
 Desenvolver é uma arte mas não precisa ser algo tão complexo a ponto de ter um canhão para matar uma formiga, siga o exemplo de um artista que conhece milhares de técnicas mas sabe qual utilizar em cada uma de suas obras.
