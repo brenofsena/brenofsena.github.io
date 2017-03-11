@@ -40,7 +40,9 @@ Nesse ponto o jQuery que foi tão popular começa a se tornar obsoleto e cada ve
 
 ## Será que precisamos de tudo isso?
 
-Então a grande pergunta que todo dev deve se fazer pelo menos alguma vez durante a sua jornada como Jedi é <em>pra que raios eu preciso de tudo isso pra fazer uma aplicação?</em> e foi exatamente essa pergunta que eu me fiz quando um colega de faculdade me perguntou o que eu precisava para desenvolver, só o editor de código e um browser já não são mais suficientes? 
+Então a grande pergunta que todo dev deve se fazer pelo menos alguma vez durante a sua jornada como Jedi é <em>pra que raios eu preciso de tudo isso pra fazer uma aplicação?</em> 
+
+E foi exatamente essa pergunta que eu me fiz quando um colega de faculdade me perguntou o que eu precisava para desenvolver, só o editor de código e um browser já não são mais suficientes? 
 
 ## Seja um artista na hora de desenvolver
 
