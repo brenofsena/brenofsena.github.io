@@ -13,7 +13,9 @@ tags:
 
 A web mudou muito desde o seu surgimento em 1989, criada por Tim Berners-Lee foi inicialmente um projeto voltado apenas para compartilhar informações, o que sem dúvida foi um passo gigantesco para o que viria a ser a web que temos hoje, logo na década de 90 com o surgimento de navegadores como o Mosaic que posteriormente passou a se chamar Netscape e de linguagens que possibilitavam o desenvolvimento de pequenas aplicações, deu-se início a era dos desenvolvedores web.
 
-Antigamente era extremamente simples desenvolver uma página afinal tudo funcionava muito bem dá seguinte forma o usuário faz um request no servidor que devolve um response com a página pronta para ser exibida, você só precisaria entender a estrutura do <em>HTML</em> e um pouco de <em>CSS</em> para aplicar um estilo tosco mas que naquela época era fantástico aos olhos de qualquer um, afinal não existiam ainda as animações e transições que temos hoje nativamente no <em>CSS3</em>, eis então que surge o <em>JavaScript</em> como linguagem client-side para manipular o DOM de maneira interativa.
+Antigamente era fácil desenvolver uma página, você só precisaria entender a estrutura do <em>HTML</em> e um pouco de <em>CSS</em> para aplicar um estilo e tornar o seu site mais apresentável, afinal não existiam ainda as animações e transições que temos hoje nativamente no <em>CSS3</em>. 
+
+Em 1995 surge o <em>JavaScript</em> como linguagem client-side para manipular o DOM de maneira interativa.
 
 
 ## Tudo muito simples
