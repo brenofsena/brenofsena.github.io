@@ -11,7 +11,7 @@ email: breno.fsena@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Desenvolvedor web e estudante de Sistemas Para Internet.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://brenofsena.github.io" # the base hostname & protocol for your site
+url: "https://brenosena.com.br" # the base hostname & protocol for your site
 github_username: brenofsena
 
 # Build settings
