@@ -3,13 +3,12 @@ layout: default
 ---
 
 <!-- Cards -->
-<section class="cards">
-  <div class="wrapper">
+<section class="cards height-100">
     {% if site.posts.size == 0 %}
       <h2>Nenhum post encontrado =(</h2>
     {% else %}
       {% for post in site.posts %}
-        <div class="card">
+        <article class="card">
           <time>
             {{ post.date | date: "%d" }} de 
             {% assign m = post.date | date: "%-m" %}
@@ -40,9 +39,8 @@ layout: default
             {{ tag }}
           </div>
           {% endfor %}
-        </div>
+        </article>
       {% endfor %}
     {% endif %}
-  </div>
 </section>
 <!-- Fim Cards -->

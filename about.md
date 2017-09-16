@@ -4,7 +4,7 @@ title: Sobre
 permalink: /sobre/
 ---
 
-Olá, me chamo Breno e sou a mente por trás desse blog onde compartilho algumas informações sobre desenvolvimento web e carreira, aprendi a programar em C# em um curso técnico em informática pelo Senac e hoje sou estudante de Sistemas Para Internet na mesma instituição, sou desenvolver web e atualmente trabalho com PHP, tenho como hobbie estudar novas linguagens de programação e design patterns, abaixo você pode conhecer algumas das minhas habilidades.
+Olá, me chamo Breno e sou a mente por trás desse blog onde compartilho algumas informações sobre desenvolvimento web e carreira, sou desenvolver web e atualmente trabalho com front-end, tenho como hobbie estudar novas linguagens de programação e design patterns, abaixo você pode conhecer algumas das minhas habilidades.
 
 ## Habilidades
 
@@ -21,7 +21,7 @@ Olá, me chamo Breno e sou a mente por trás desse blog onde compartilho algumas
 
 ### Back-End
 
-- PHP (OOP, Laravel, Composer)
+- PHP (OOP, Codeigniter, Composer)
 - C#
 - Bancos de Dados (MySQL, SQL Server)
 
@@ -38,6 +38,7 @@ Olá, me chamo Breno e sou a mente por trás desse blog onde compartilho algumas
 - Sublime Text
 - Visual Studio Code
 - Netbeans
+- Visual Studio
 - Terminal (Oh-My-Zsh)
 - Trello
 
@@ -48,3 +49,4 @@ Olá, me chamo Breno e sou a mente por trás desse blog onde compartilho algumas
 ### Metodologias
 
 - Scrum
+- Agile

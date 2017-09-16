@@ -47,14 +47,12 @@ maiores quando for aprender um framework e não saber lidar com o mesmo.
 
 - [Desvendando a linguagem JavaScript](https://www.youtube.com/playlist?list=PLQCmSnNFVYnT1-oeDOSBnt164802rkegc){:target="_blank"}
 - [Dominando JavaScript com jQuery](https://www.casadocodigo.com.br/products/livro-javascript-jquery){:target="_blank"}
-- [Be MEAN](https://www.youtube.com/channel/UCKdo1RaF8gzfhvkOdZv_ojg/playlists){:target="_blank"}
 - [Tudo sobre AngularJS](https://www.youtube.com/playlist?list=PLQCmSnNFVYnTD5p2fR4EXmtlR6jQJMbPb){:target="_blank"}
 
 ### Pré-processadores
 
 Aprenda um pré-processador CSS isso vai te ajudar a escrever CSS mais rápido e eficiente.
 
-- [Be Mean - SASS](https://www.youtube.com/playlist?list=PL77JVjKTJT2h4DPhWnTyVurZXugplVa1r){:target="_blank"}
 - [Escrevendo CSS com Stylus](http://blog.da2k.com.br/2015/02/15/escrevendo-css-com-stylus/){:target="_blank"}
 
 ### Automatizadores
@@ -94,10 +92,7 @@ A propósito esse blog foi construido a partir desse curso. Valeu Willian!
 E para finalizar alguns blogs e canais que eu sigo.
 
 - [Willian Justen](https://willianjusten.com.br/){:target="_blank"}
-- [Nomadev](http://nomadev.com.br/){:target="_blank"}
 - [Rodrigo Branas](https://www.youtube.com/rodrigobranas){:target="_blank"}
-- [Webschool](https://www.youtube.com/channel/UCKdo1RaF8gzfhvkOdZv_ojg){:target="_blank"}
-- [CSS CastShow](https://www.youtube.com/channel/UC9d_htYmYYFUXB2vBKx4NgA){:target="_blank"}
 - [Curso em Vídeo](https://www.youtube.com/cursoemvideo){:target="_blank"}
 
 Bom, isso é o básico para você se tornar um bom desenvolvedor web mas isso depende da sua dedicação, vá ao máximo de eventos que puder, veja palestras, participe de comunidades no facebook, contribua para projetos open-source e tenho certeza que irá se tornar um excelente desenvolvedor.

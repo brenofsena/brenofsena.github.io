@@ -1,23 +1,15 @@
-function addClass(el, className){
-	el.classList.add(className);
+document.querySelector('.menu-abrir').onclick = function(){
+    document.documentElement.classList.add('menu-ativo');
 };
 
-function removeClass(el, className){
-	el.classList.remove(className);
+document.querySelector('.menu-fechar').onclick = function(){
+    document.documentElement.classList.remove('menu-ativo');
 };
 
-window.onload = function(){
-	var open = document.getElementById('open-nav'),
-	close = document.getElementById('close-nav'),
-	header = document.getElementById('header');
-
-	open.addEventListener('click', function(){
-		addClass(header, 'menu-active');
-	});
-
-	close.addEventListener('click', function(){
-		removeClass(header, 'menu-active');
-	});
+document.documentElement.onclick = function(event){
+    if(event.target == document.documentElement){
+        document.documentElement.classList.remove('menu-ativo');
+    }
 };
 
 hljs.initHighlightingOnLoad();
