@@ -15,12 +15,12 @@
   max-width: 180px;
 }
 
-.logo a {
+.logo{
   -webkit-transition: all .2s ease-out;
   transition: all .2s ease-out;
 }
 
-.logo a:hover {
+.logo:hover {
   opacity: .7;
 }
 
@@ -138,7 +138,7 @@
 }
 
 .cards .card h2 a {
-  color: $secondary-color;
+  color: $primary-color;
   text-decoration: none;
 }
 
@@ -205,7 +205,12 @@
     padding: 40px;
     h2 {
       font-size: 1.4em;
-      color: #000;
+      color: $primary-color;
+      margin: 10px 0;
+    }
+    h3{
+      color: $primary-color;
+      font-size: 1.2em;
       margin: 10px 0;
     }
     p {
@@ -292,7 +297,7 @@
 .page h1,
 .page h2,
 .page h3 {
-  color: #000;
+  color: $primary-color;
   margin: 20px 0;
 }
 
@@ -395,7 +400,7 @@
     outline: none;
   }
   .menu-abrir {
-    color: #222;
+    color: $primary-color;
   }
   .menu-fechar {
     color: #fff;
