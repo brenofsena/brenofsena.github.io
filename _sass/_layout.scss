@@ -1,18 +1,21 @@
-.main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
+// Header
+.header{
+  background: $primary-color;
 }
 
+.header .flex{
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 
-/* LOGO */
+// LOGO
 
 .logo a img {
-  max-width: 180px;
+  max-width: 120px;
 }
 
 .logo{
@@ -24,32 +27,8 @@
   opacity: .7;
 }
 
-.aside {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  background: $primary-color;
-  width: 25%;
-  position: fixed;
-  left: 0;
-}
 
-
-/* MENU */
-
-.menu {
-  margin: 40px 0;
-}
+// MENU
 
 .menu ul li a {
   color: #fff;
@@ -66,11 +45,7 @@
 }
 
 
-/* REDES SOCIAIS */
-
-.social {
-  margin: 20px 0;
-}
+//REDES SOCIAIS
 
 .social ul li {
   float: left;
@@ -89,32 +64,13 @@
 }
 
 
-/* CARDS */
-
-.cards {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-line-pack: center;
-  align-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-}
-
+// CARDS
 .cards .card {
   border: solid 1px #ddd;
   border-radius: 5px;
   padding: 10px;
-  margin: 20px;
-  -webkit-box-flex: 1;
-  -ms-flex: auto;
-  flex: auto;
+  margin: 30px 0 0;
+  width: 100%;
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
   display: block;
@@ -161,7 +117,7 @@
 }
 
 
-/* Post */
+// POST
 
 .post {
   width: 100%;
@@ -190,7 +146,7 @@
     .wrapper {
       position: relative;
       z-index: 3;
-      padding: 40px;
+      padding: 40px 0;
     }
     h1 {
       font-weight: 800;
@@ -202,7 +158,6 @@
     }
   }
   .post-content {
-    padding: 40px;
     h2 {
       font-size: 1.4em;
       color: $primary-color;
@@ -249,7 +204,7 @@
 }
 
 
-/* SHARE */
+// SHARE
 
 .share {
   text-align: center;
@@ -292,7 +247,7 @@
 }
 
 
-/* PAGINAS */
+// PAGINAS
 
 .page h1,
 .page h2,
@@ -329,7 +284,7 @@
 }
 
 
-/* FOOTER */
+// FOOTER
 
 .footer {
   width: 100%;
@@ -376,31 +331,33 @@
   }
 }
 
-@media screen and (max-width: 860px) {
-  .aside {
+@media screen and (max-width: 640px) {
+  .menu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
     left: -100%;
     z-index: 9999;
     width: 80%;
+    padding: 20px;
     -webkit-transition: left .2s ease-out;
     transition: left .2s ease-out;
+    background: $primary-color;
   }
-  .container {
-    margin-left: 0;
-  }
-  .menu-ativo .aside {
+  .menu-ativo .menu {
     left: 0;
   }
   .menu-abrir,
   .menu-fechar {
     background: none;
     border: none;
-    margin: 20px;
+    margin: 15px;
     font-size: 2em;
     cursor: pointer;
     outline: none;
   }
   .menu-abrir {
-    color: $primary-color;
+    color: #fff;
   }
   .menu-fechar {
     color: #fff;
@@ -410,7 +367,7 @@
   }
 }
 
-@media not all and (max-width: 860px) {
+@media not all and (max-width: 640px) {
   .menu-abrir,
   .menu-fechar {
     display: none;

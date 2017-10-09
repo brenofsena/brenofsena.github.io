@@ -1,0 +1,52 @@
+<header class="header">
+	<div class="container flex">
+
+		<h1 class="logo">
+			<a href="/">
+			<img src="/assets/img/logo.png" alt="Breno Sena Desenvolvedor Web" title="Breno Sena">
+		</a>
+		</h1>
+
+
+		<button class="menu-abrir">
+			<i class="fa fa-bars" aria-hidden="true"></i>
+		</button>
+
+		<!-- Menu -->
+		<nav class="menu">
+				
+			<button class="menu-fechar">
+				<i class="fa fa-times" aria-hidden="true"></i>
+			</button>
+
+
+			<ul>
+				{% for page in site.pages %} {% unless page.exclude %} {% if page.title %}
+				<li>
+					<a href="{{ page.url }}">{{ page.title }}</a>
+				</li>
+				{% endif %} {% endunless %} {% endfor %}
+			</ul>
+		</nav>
+		<!-- Fim Menu -->
+
+		<!-- Social -->
+		<div class="social">
+			<nav>
+				<ul>
+					<li>
+						<a href="https://br.linkedin.com/in/brenofsena" target="blank">
+						<i class="fa fa-linkedin" aria-hidden="true"></i>
+					</a>
+					</li>
+					<li>
+						<a href="https://github.com/brenofsena" target="blank">
+						<i class="fa fa-github"></i>
+					</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<!-- Social -->
+	</div>
+</header>

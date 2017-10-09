@@ -1,19 +1,9 @@
 {% include head.html %}
 <body>
 	<main class="main">
-		{% include aside.html %}
-
-		<div class="container">
-			
-			<button class="menu-abrir">
-				<i class="fa fa-bars" aria-hidden="true"></i>
-			</button>
-
-			{{ content }}
-			{% include footer.html %}
-
-		</div>
-		
+		{% include header.html %}
+		{{ content }}
+		{% include footer.html %}
 	</main>
 
 	{% include scripts.html %}

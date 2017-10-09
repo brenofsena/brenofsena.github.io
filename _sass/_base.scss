@@ -1,5 +1,5 @@
 $background: #fff;
-$primary-color: #1e2d44;
+$primary-color: #212121;
 $secondary-color: #00e0d0;
 $font: 'Lato';
 
@@ -8,7 +8,8 @@ $font: 'Lato';
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -35,6 +36,15 @@ img{
 }
 
 .container{
-  margin-left: 25%;
-  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 5px 15px;
+}
+
+.flex{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
