@@ -8,8 +8,6 @@ Olá, me chamo Breno e sou a mente por trás desse blog onde compartilho algumas
 
 ## Habilidades
 
-### Front-End
-
 - HTML5
 - CSS (SASS, Stylus)
 - CSS Frameworks (Bootstrap)
