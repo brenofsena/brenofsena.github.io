@@ -33,9 +33,9 @@ Para tudo e vem comigo!
 ### HTML E CSS
 
 Para começar você precisa aprender o básico de HTML e CSS afinal isso é a base da internet.
-
-- [Maujor](http://www.maujor.com/){:target="_blank"}
+- [Curso em Vídeo](https://www.cursoemvideo.com/course/curso-de-html5/){:target="_blank"}
 - [Tableless](https://tableless.com.br/){:target="_blank"}
+- [Maujor](http://www.maujor.com/){:target="_blank"}
 - [HTML5 e CSS3 - Domine a web do futuro](https://www.casadocodigo.com.br/products/livro-html-css){:target="_blank"}
 
 Depois você pode começar a utilizar frameworks CSS como o Bootstap mas nesse momento é fundamental entender todos os conceitos básicos sobre HTML e CSS.
