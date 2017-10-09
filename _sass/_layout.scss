@@ -309,7 +309,11 @@
   text-decoration: none;
 }
 
-.footer p i {
+.footer p .fa-coffee{
+  color: $primary-color;
+}
+
+.footer p .fa-heart {
   color: tomato;
   -webkit-animation: pulse .5s infinite alternate ease-in;
   animation: pulse .5s infinite alternate ease-in;
