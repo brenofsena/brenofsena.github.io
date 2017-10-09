@@ -1,11 +1,21 @@
 <header class="header">
 	<div class="container flex">
 
-		<h1 class="logo">
-			<a href="/">
-			<img src="/assets/img/logo.png" alt="Breno Sena Desenvolvedor Web" title="Breno Sena">
-		</a>
-		</h1>
+			{% if page.url == "/" %}
+				<h1 class="logo">
+					<a href="/">
+						<img src="/assets/img/logo.png" alt="Breno Sena Desenvolvedor Web" title="Breno Sena">
+					</a>
+				</h1>
+			{% else %}
+				<div class="logo">
+					<a href="/">
+						<img src="/assets/img/logo.png" alt="Breno Sena Desenvolvedor Web" title="Breno Sena">
+					</a>
+				</div>
+			{% endif %}
+
+		
 
 
 		<button class="menu-abrir">
@@ -21,6 +31,10 @@
 
 
 			<ul>
+				<li>
+					<a href="/">Home</a>
+				</li>
+
 				{% for page in site.pages %} {% unless page.exclude %} {% if page.title %}
 				<li>
 					<a href="{{ page.url }}">{{ page.title }}</a>
