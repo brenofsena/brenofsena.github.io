@@ -309,16 +309,22 @@
 // FOOTER
 .footer {
   width: 100%;
-  margin: 20px 0px 0;
+  margin: 30px 0px 0;
   background: $primary-color;
   padding: 10px;
+}
+
+.footer .flex {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .footer p {
   color: #fff;
   text-align: center;
   font-size: 1em;
-  margin: 0 10px;
+  width: 100%;
 }
 
 .footer p a {
@@ -334,6 +340,23 @@
   color: tomato;
   -webkit-animation: pulse .5s infinite alternate ease-in;
   animation: pulse .5s infinite alternate ease-in;
+}
+
+//REDES SOCIAIS
+.social ul li {
+  float: left;
+  margin: 10px 5px;
+}
+
+.social ul li a {
+  color: $secondary-color;
+  font-size: 2em;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}
+
+.social ul li a:hover {
+  color: #fff;
 }
 
 @-webkit-keyframes pulse {
@@ -358,28 +381,6 @@
   }
 }
 
-//REDES SOCIAIS
-.social {
-  display: table;
-  margin: auto;
-}
-
-.social ul li {
-  float: left;
-  margin: 10px 5px;
-}
-
-.social ul li a {
-  color: $secondary-color;
-  font-size: 2em;
-  -webkit-transition: all .2s ease-out;
-  transition: all .2s ease-out;
-}
-
-.social ul li a:hover {
-  color: #fff;
-}
-
 @media screen and (max-width: 640px) {
   .menu {
     position: fixed;
@@ -391,7 +392,7 @@
     padding: 30px;
     -webkit-transition: left .2s ease-out;
     transition: left .2s ease-out;
-    background: rgba(0,0,0,0.9);
+    background: rgba(0, 0, 0, 0.9);
     ul {
       li {
         float: none;
