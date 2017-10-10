@@ -1,28 +1,25 @@
 <header class="header">
 	<div class="container flex">
 
-			{% if page.url == "/" %}
-				<h1 class="logo">
-					<a href="/">
-						<img src="/assets/img/logo.png" alt="Breno Sena Desenvolvedor Web" title="Breno Sena">
-					</a>
-				</h1>
-			{% else %}
-				<div class="logo">
-					<a href="/">
-						<img src="/assets/img/logo.png" alt="Breno Sena Desenvolvedor Web" title="Breno Sena">
-					</a>
-				</div>
-			{% endif %}
+		{% if page.url == "/" %}
+			<h1 class="logo">
+				<a href="/">
+					<img src="/assets/img/logo.png" alt="Breno Sena Desenvolvedor Web" title="Breno Sena">
+				</a>
+			</h1>
+		{% else %}
+			<div class="logo">
+				<a href="/">
+					<img src="/assets/img/logo.png" alt="Breno Sena Desenvolvedor Web" title="Breno Sena">
+				</a>
+			</div>
+		{% endif %}
 
 		
-
-
 		<button class="menu-abrir">
 			<i class="fa fa-bars" aria-hidden="true"></i>
 		</button>
 
-		<!-- Menu -->
 		<nav class="menu">
 				
 			<button class="menu-fechar">
@@ -42,25 +39,6 @@
 				{% endif %} {% endunless %} {% endfor %}
 			</ul>
 		</nav>
-		<!-- Fim Menu -->
 
-		<!-- Social -->
-		<div class="social">
-			<nav>
-				<ul>
-					<li>
-						<a href="https://br.linkedin.com/in/brenofsena" target="blank">
-						<i class="fa fa-linkedin" aria-hidden="true"></i>
-					</a>
-					</li>
-					<li>
-						<a href="https://github.com/brenofsena" target="blank">
-						<i class="fa fa-github"></i>
-					</a>
-					</li>
-				</ul>
-			</nav>
-		</div>
-		<!-- Social -->
 	</div>
 </header>

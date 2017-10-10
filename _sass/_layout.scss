@@ -1,24 +1,23 @@
 // Header
-.header{
+.header {
   background: $primary-color;
 }
 
-.header .flex{
+.header .flex {
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 // LOGO
-
 .logo a img {
   max-width: 120px;
 }
 
-.logo{
+.logo {
   -webkit-transition: all .2s ease-out;
   transition: all .2s ease-out;
 }
@@ -27,12 +26,10 @@
   opacity: .7;
 }
 
-
 // MENU
-
 .menu {
-  ul{
-    li{
+  ul {
+    li {
       float: left;
       margin: 0 10px;
       a {
@@ -51,81 +48,105 @@
   }
 }
 
-
-//REDES SOCIAIS
-
-.social ul li {
-  float: left;
-  margin: 10px 5px;
-}
-
-.social ul li a {
-  color: $secondary-color;
-  font-size: 2em;
-  -webkit-transition: all .2s ease-out;
-  transition: all .2s ease-out;
-}
-
-.social ul li a:hover {
-  color: #fff;
-}
-
-
 // CARDS
-.cards .card {
-  border: solid 1px #ddd;
-  border-radius: 5px;
-  padding: 10px;
-  margin: 30px 0 0;
-  width: 100%;
-  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
-  display: block;
-  min-height: 170px;
-  -webkit-transition: all .2s ease-out;
-  transition: all .2s ease-out;
+.cards {
+  .card {
+    border: solid 1px #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 30px 0 0;
+    width: 100%;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    display: block;
+    min-height: 170px;
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    position: relative;
+    time {
+      color: #9A9A9A;
+      font-size: .9em;
+      margin: 10px 0;
+    }
+    h2 {
+      margin: 10px 0;
+      a {
+        color: $primary-color;
+        text-decoration: none;
+      }
+    }
+    p {
+      color: #222;
+      margin: 10px 0;
+    }
+    &:hover {
+      border-color: $secondary-color;
+    }
+    .tags {
+      border: solid 1px $secondary-color;
+      float: left;
+      margin: 10px 5px 10px 0px;
+      margin-right: 10px;
+      padding: 0 5px;
+      text-align: center;
+      height: 30px;
+      line-height: 30px;
+      border-radius: 5px;
+      color: #222;
+    }
+    .flag {
+      position: absolute;
+      right: -5px;
+      top: -5px;
+      z-index: 1;
+      overflow: hidden;
+      width: 75px;
+      height: 75px;
+      text-align: right;
+      span {
+        font-size: .75rem;
+        font-weight: bold;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 20px;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        width: 100px;
+        display: block;
+        background: $secondary-color;
+        position: absolute;
+        top: 19px;
+        right: -21px;
+        &:before {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 100%;
+          z-index: -1;
+          border-left: 3px solid $secondary-color;
+          border-right: 3px solid transparent;
+          border-bottom: 3px solid transparent;
+          border-top: 3px solid $secondary-color;
+        }
+        &:after {
+          content: "";
+          position: absolute;
+          right: 0;
+          top: 100%;
+          z-index: -1;
+          border-left: 3px solid transparent;
+          border-right: 3px solid #005f97;
+          border-bottom: 3px solid transparent;
+          border-top: 3px solid #005f97;
+        }
+      }
+    }
+  }
 }
-
-.cards .card:hover {
-  border-color: $secondary-color;
-}
-
-.cards .card time {
-  color: #9A9A9A;
-  font-size: .9em;
-  margin: 10px 0;
-}
-
-.cards .card h2 {
-  margin: 10px 0;
-}
-
-.cards .card h2 a {
-  color: $primary-color;
-  text-decoration: none;
-}
-
-.cards .card p {
-  color: #222;
-  margin: 10px 0;
-}
-
-.cards .card .tags {
-  border: solid 1px $secondary-color;
-  float: left;
-  margin: 10px 5px 10px 0px;
-  margin-right: 10px;
-  padding: 0 5px;
-  text-align: center;
-  height: 30px;
-  line-height: 30px;
-  border-radius: 5px;
-  color: #222;
-}
-
 
 // POST
-
 .post {
   width: 100%;
   .post-header {
@@ -170,7 +191,7 @@
       color: $primary-color;
       margin: 10px 0;
     }
-    h3{
+    h3 {
       color: $primary-color;
       font-size: 1.2em;
       margin: 10px 0;
@@ -210,9 +231,7 @@
   }
 }
 
-
 // SHARE
-
 .share {
   text-align: center;
   h3 {
@@ -253,9 +272,7 @@
   margin: 40px;
 }
 
-
 // PAGINAS
-
 .page h1,
 .page h2,
 .page h3 {
@@ -289,16 +306,16 @@
   color: #777;
 }
 
-
 // FOOTER
-
 .footer {
   width: 100%;
-  margin: 20px 0px;
+  margin: 20px 0px 0;
+  background: $primary-color;
+  padding: 10px;
 }
 
 .footer p {
-  color: #222;
+  color: #fff;
   text-align: center;
   font-size: 1em;
   margin: 0 10px;
@@ -309,8 +326,8 @@
   text-decoration: none;
 }
 
-.footer p .fa-coffee{
-  color: $primary-color;
+.footer p .fa-coffee {
+  color: #fff;
 }
 
 .footer p .fa-heart {
@@ -341,6 +358,28 @@
   }
 }
 
+//REDES SOCIAIS
+.social {
+  display: table;
+  margin: auto;
+}
+
+.social ul li {
+  float: left;
+  margin: 10px 5px;
+}
+
+.social ul li a {
+  color: $secondary-color;
+  font-size: 2em;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}
+
+.social ul li a:hover {
+  color: #fff;
+}
+
 @media screen and (max-width: 640px) {
   .menu {
     position: fixed;
@@ -348,13 +387,13 @@
     bottom: 0;
     left: -100%;
     z-index: 9999;
-    width: 80%;
+    width: 100%;
     padding: 30px;
     -webkit-transition: left .2s ease-out;
     transition: left .2s ease-out;
-    background: $primary-color;
-    ul{
-      li{
+    background: rgba(0,0,0,0.9);
+    ul {
+      li {
         float: none;
         margin: 20px 0;
       }
@@ -373,13 +412,13 @@
     outline: none;
   }
   .menu-abrir {
-    color: #fff;
+    color: $secondary-color;
   }
   .menu-fechar {
-    color: #fff;
+    color: $secondary-color;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 5px;
+    right: 17px;
   }
 }
 

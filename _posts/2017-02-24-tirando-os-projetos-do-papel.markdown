@@ -8,6 +8,7 @@ tags:
 - vida pessoal
 image: assets/img/post-2.jpg
 alt: tirando as idéias do papel
+flag: "Dev"
 ---
 
 ## Introdução

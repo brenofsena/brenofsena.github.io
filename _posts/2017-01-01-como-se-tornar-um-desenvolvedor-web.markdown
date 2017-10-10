@@ -8,6 +8,7 @@ tags:
 intro: "Alguns passos que podem te ajudar a se tornar um desenvolver web."
 image: "assets/img/post-1.jpg"
 alt: "Desenvolvimento web"
+flag: "Dev"
 ---
 
 ## Introdução

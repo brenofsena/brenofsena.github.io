@@ -3,13 +3,18 @@ layout: default
 ---
 
 <!-- Cards -->
-<section class="cards">
+<section class="cards height-100">
     <div class="container flex">
       {% if site.posts.size == 0 %}
         <h2>Nenhum post encontrado =(</h2>
       {% else %}
         {% for post in site.posts %}
           <article class="card">
+            
+            <div class="flag">
+              <span>{{post.flag}}</span>
+            </div>
+
             <time>
               {{ post.date | date: "%d" }} de 
               {% assign m = post.date | date: "%-m" %}
