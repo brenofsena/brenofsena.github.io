@@ -237,6 +237,8 @@
         height: 200px;
         -o-object-fit: cover;
         object-fit: cover;
+        -webkit-filter: grayscale(85%);
+                filter: grayscale(85%);
       }
     }
     .post-header-content {
