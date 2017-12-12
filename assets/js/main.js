@@ -1,14 +1,14 @@
-document.querySelector('.menu-abrir').onclick = function(){
-    document.documentElement.classList.add('menu-ativo');
+document.querySelector('.menu-open').onclick = function(){
+    document.documentElement.classList.add('menu-active');
 };
 
-document.querySelector('.menu-fechar').onclick = function(){
-    document.documentElement.classList.remove('menu-ativo');
+document.querySelector('.menu-close').onclick = function(){
+    document.documentElement.classList.remove('menu-active');
 };
 
 document.documentElement.onclick = function(event){
     if(event.target == document.documentElement){
-        document.documentElement.classList.remove('menu-ativo');
+        document.documentElement.classList.remove('menu-active');
     }
 };
 

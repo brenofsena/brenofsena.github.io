@@ -4,14 +4,14 @@ comments: true
 # other options
 ---
 
-<article class="post height-100">
+<article class="post">
 	<header class="post-header">
-		<picture class="picture">
+		<figure class="post-figure">
 			<img src="{{ page.image }}" alt="{{ page.alt }}">
-		</picture>
-		<div class="container">
-			<div class="wrapper">
-				<time>
+		</figure>
+		<div class="post-header-content">
+			<div class="container">
+				<time class="post-time">
 					{{ page.date | date: "%d" }} de 
 					{% assign m = page.date | date: "%-m" %}
 						{% case m %}
@@ -30,7 +30,9 @@ comments: true
 						{% endcase %}
 						de {{ page.date | date: "%Y" }}
 				</time>
-				<h1>{{ page.title }}</h1>
+				<h1 class="post-title">
+					{{ page.title }}
+				</h1>
 			</div>
 		</div>
 	</header>
@@ -40,21 +42,34 @@ comments: true
 			{{ content }}
 		</div>
 	</div>
-
-	<footer>
-		<div class="container">
-			{% include share.html %}
-
-			<div id="disqus_thread"></div>
-			<script>
-			(function() { // DON'T EDIT BELOW THIS LINE
-				var d = document, s = d.createElement('script');
-				s.src = '//breno-sena.disqus.com/embed.js';
-				s.setAttribute('data-timestamp', +new Date());
-				(d.head || d.body).appendChild(s);
-			})();
-			</script>
-			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-		</div>
-	</footer>	
 </article>
+
+
+<section class="share">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+					{% include share.html %}
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="comments">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+					<div id="disqus_thread"></div>
+					<script>
+					(function() { // DON'T EDIT BELOW THIS LINE
+						var d = document, s = d.createElement('script');
+						s.src = '//breno-sena.disqus.com/embed.js';
+						s.setAttribute('data-timestamp', +new Date());
+						(d.head || d.body).appendChild(s);
+					})();
+					</script>
+					<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+			</div>
+		</div>
+	</div>
+</section>

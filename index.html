@@ -2,52 +2,102 @@
 layout: default
 ---
 
-<!-- Cards -->
-<section class="cards height-80">
-    <div class="container flex">
-      {% if site.posts.size == 0 %}
-        <h2>Nenhum post encontrado =(</h2>
-      {% else %}
-        {% for post in site.posts %}
-          <article class="card">
-            
-            <div class="flag">
-              <span>{{post.flag}}</span>
-            </div>
-
-            <time>
-              {{ post.date | date: "%d" }} de 
-              {% assign m = post.date | date: "%-m" %}
-                {% case m %}
-                {% when '1' %}Janeiro
-                {% when '2' %}Fevereiro
-                {% when '3' %}Março
-                {% when '4' %}Abril
-                {% when '5' %}Maio
-                {% when '6' %}Junho
-                {% when '7' %}Julho
-                {% when '8' %}Agosto
-                {% when '9' %}Setembro
-                {% when '10' %}Outubro
-                {% when '11' %}Novembro
-                {% when '12' %}Dezembro
-                {% endcase %}
-              de {{ post.date | date: "%Y" }}
-            </time>
-            <h2>
-              <a href="{{ post.url }}">{{ post.title }}</a>
-            </h2>
-            <p>
-              {{ post.intro }}
-            </p>
-            {% for tag in post.tags %}
-            <div class="tags"> 
-              {{ tag }}
-            </div>
-            {% endfor %}
-          </article>
-        {% endfor %}
-      {% endif %}
+<section class="banner height-100 d-flex align-items-center">
+  <div class="container">
+    <article>
+      <h1 class="banner-title">Desenvolvimento Web e Carreira</h1>
+      <p class="banner-text">
+        Programação além das linhas de código
+        <i class="fa fa-code" aria-hidden="true"></i>
+      </p>
+    </article>
   </div>
 </section>
-<!-- Fim Cards -->
+
+<section class="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="section-title">
+          Portfólio
+        </h1>
+      </div>
+
+      <div class="col-6 col-m-12">
+        <figure class="portfolio-image">
+          <img src="/assets/img/portfolio-ccadorai.jpg" alt="Site CCAdorai" title="Site para Comunidade Cristã CCAdorai">
+        </figure>
+      </div>
+      <div class="col-6 col-m-12">
+        <article>
+          <h2 class="portfolio-title">
+            CCAdorai
+          </h2>
+          <p class="portfolio-text">
+            Website desenvolvido em HTML, CSS e JS para a Comunidade Cristã CCAdorai.
+          </p>
+          <a href="http://ccadorai.com.br/" target="blank" class="portfolio-btn">Ver Projeto</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cards height-80">
+  <div class="container">
+      <div class="row">
+          <div class="col-12">
+            <h1 class="section-title">
+              Últimas Postagens
+            </h1>
+          </div>
+
+            {% if site.posts.size == 0 %}
+              <h2>Nenhum post encontrado =(</h2>
+            {% else %}
+              {% for post in site.posts %}
+              <div class="col-4 col-m-12">
+                <article class="card">
+                  
+                  <div class="card-flag">
+                    <span>{{post.flag}}</span>
+                  </div>
+
+                  <figure class="card-figure">
+                    <img src="{{ post.image }}">
+                  </figure>
+                  
+                  <div class="card-content">
+                    <time class="card-time">
+                      {{ post.date | date: "%d" }} de 
+                      {% assign m = post.date | date: "%-m" %}
+                        {% case m %}
+                        {% when '1' %}Janeiro
+                        {% when '2' %}Fevereiro
+                        {% when '3' %}Março
+                        {% when '4' %}Abril
+                        {% when '5' %}Maio
+                        {% when '6' %}Junho
+                        {% when '7' %}Julho
+                        {% when '8' %}Agosto
+                        {% when '9' %}Setembro
+                        {% when '10' %}Outubro
+                        {% when '11' %}Novembro
+                        {% when '12' %}Dezembro
+                        {% endcase %}
+                      de {{ post.date | date: "%Y" }}
+                    </time>
+                    <h2 class="card-title">
+                      <a href="{{ post.url }}">{{ post.title }}</a>
+                    </h2>
+                    <p class="card-text">
+                      {{ post.intro }}
+                    </p>
+                  </div>
+                </article>
+              </div>
+          {% endfor %}
+        {% endif %}
+      </div>
+  </div>
+</section>

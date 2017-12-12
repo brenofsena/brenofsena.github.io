@@ -29,8 +29,6 @@ respirar fundo e lembrar que se você teve uma boa base você será capaz de apr
 
 Para tudo e vem comigo!
 
-![Vem pra dança](https://media.giphy.com/media/l0MYOnps6gMbRvnb2/giphy.gif)
-
 ### HTML E CSS
 
 Para começar você precisa aprender o básico de HTML e CSS afinal isso é a base da internet.
