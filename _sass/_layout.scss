@@ -87,8 +87,8 @@
       img {
         -webkit-filter: grayscale(0);
                 filter: grayscale(0);
-        -webkit-transform: scale(1.2);
-                transform: scale(1.2);
+        -webkit-transform: scale(1.1);
+                transform: scale(1.1);
       }
     }
   }
@@ -115,6 +115,7 @@
     border-radius: 5px;
     -webkit-transition: all .2s ease-out;
     transition: all .2s ease-out;
+    font-weight: 600;
     &:hover {
       background: #fff;
       color: $primary-color;
@@ -184,10 +185,10 @@
       .card-time {
         color: #959595;
         font-size: .8em;
-        margin: 5px 0;
+        margin: 10px 0;
       }
       .card-title {
-        margin: 5px 0;
+        margin: 10px 0;
         a {
           text-decoration: none;
           font-size: 1.2rem;
@@ -198,7 +199,7 @@
         }
       }
       .card-text {
-        margin: 5px 0;
+        margin: 10px 0;
         color: #959595;
         font-weight: 400;
         font-size: 1em;
@@ -288,7 +289,7 @@
         padding: 0 5px;
         a {
           color: #959595;
-          font-size: 2em;
+          font-size: 3em;
           -webkit-transition: all .2s ease-out;
           transition: all .2s ease-out;
           &:hover {
@@ -350,6 +351,10 @@
       color: tomato;
       -webkit-animation: pulse .5s infinite alternate ease-in;
       animation: pulse .5s infinite alternate ease-in;
+    }
+
+    .fa-coffee{
+      color: $secondary-color;
     }
   }
   .social {
@@ -421,7 +426,7 @@
       -webkit-transition: all .2s ease-out;
       transition: all .2s ease-out;
       .nav {
-        margin: 20px;
+        margin: 30px;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
@@ -443,7 +448,7 @@
       float: right;
     }
     .menu-close {
-      margin: 10px;
+      margin: 20px;
     }
   }
   .menu-active {
