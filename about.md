@@ -8,11 +8,14 @@ Olá, me chamo Breno e sou a mente por trás desse blog onde compartilho algumas
 
 ##  Workflow
 
+### Front-End
+
 - HTML5
 - CSS (SASS, Stylus)
 - CSS Frameworks (Bootstrap)
 - JavaScript
 - jQuery
+- React
 - Automatizadores (Gulp)
 - Dependências (Bower, NPM)
 - Geradores Estáticos (Jekyll)
@@ -20,7 +23,6 @@ Olá, me chamo Breno e sou a mente por trás desse blog onde compartilho algumas
 ### Back-End
 
 - PHP (OOP, Codeigniter, Composer)
-- C#
 - Bancos de Dados (MySQL, SQL Server)
 
 ### CMS
@@ -43,5 +45,6 @@ Olá, me chamo Breno e sou a mente por trás desse blog onde compartilho algumas
 
 ### Metodologias
 
+- Kanban
 - Scrum
 - Agile
