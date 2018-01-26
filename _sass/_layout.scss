@@ -131,6 +131,9 @@
     box-shadow: 0px 0px 42px -10px rgba(0, 0, 0, 0.40);
     position: relative;
     margin-bottom: 20px;
+    a{
+      text-decoration: none;
+    }
     .card-flag {
       position: absolute;
       right: -5px;
@@ -180,22 +183,12 @@
         }
       }
     }
-    &:hover {
-      cursor: pointer;
-      .card-figure {
-        img {
-          -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-          -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
-        }
-      }
-    }
     .card-figure {
       overflow: hidden;
       img {
         -webkit-transition: all .2s ease-out;
         transition: all .2s ease-out;
+        filter: grayscale(100%)
       }
     }
     .card-content {
@@ -207,14 +200,11 @@
       }
       .card-title {
         margin: 10px 0;
-        a {
-          text-decoration: none;
-          font-size: 1.2rem;
-          display: block;
-          line-height: 20px;
-          font-weight: 600;
-          color: $primary-color;
-        }
+        font-size: 1.2rem;
+        display: block;
+        line-height: 20px;
+        font-weight: 600;
+        color: $primary-color;
       }
       .card-text {
         margin: 10px 0;
