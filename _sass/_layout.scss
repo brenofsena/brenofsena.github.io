@@ -51,6 +51,8 @@
 .banner {
   background: url(/assets/img/banner.jpg) fixed no-repeat center;
   background-size: cover;
+  -webkit-filter: grayscale(100);
+          filter: grayscale(100);
   .banner-title {
     color: #fff;
     font-size: 4rem;
@@ -188,7 +190,8 @@
       img {
         -webkit-transition: all .2s ease-out;
         transition: all .2s ease-out;
-        filter: grayscale(100%)
+        -webkit-filter: grayscale(100%);
+                filter: grayscale(100%)
       }
     }
     .card-content {
