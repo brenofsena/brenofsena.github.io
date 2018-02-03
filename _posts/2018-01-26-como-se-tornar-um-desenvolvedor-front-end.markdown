@@ -34,7 +34,9 @@ Para tudo e vem comigo!
 
 <h2 id="dev-front-end">Desenvolvedor front-end o que é?</h2>
 
-O que é e o que faz um desenvolvedor front-end? antes de iniciar a nossa jornada jovem padawan é necessário entender o que esse profissional faz, o que chamamos de front é toda a camada de apresentação da aplicação em termos técnicos são as nossas Views, ou seja o trabalho do front-end é justamente tornar essa camada mais apresentável se preocupando com a experiência do usuário e também a usabilidade.
+O que é e o que faz um desenvolvedor front-end? antes de iniciar a nossa jornada jovem padawan é necessário entender o que esse profissional faz, o que chamamos de front é toda a camada de apresentação da aplicação, ou seja o trabalho do front-end é justamente tornar essa camada mais apresentável se preocupando com a experiência do usuário e também a usabilidade, esse profissional está diretamente ligado ao time de design para tentarem estabelecer o melhor caminho a ser tomado para o desenvolvimento do projeto, fora isso o desenvolvedor front-end deve tentar manter-se sempre atualizado, são milhares de tecnologias para aprender em um universo que cresce cada vez mais.
+
+<img src="/assets/img/programador-front-end.gif" alt="Programador front-end" title="Programador front-end">
 
 <h2 id="html-e-css">HTML e CSS</h2>
 
