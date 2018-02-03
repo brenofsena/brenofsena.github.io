@@ -6,8 +6,9 @@ intro: "Como parar de procrastinar e finalmente fazer aquele projeto acontecer."
 tags: 
 - carreira 
 - vida pessoal
-image: assets/img/post-2.jpg
-alt: tirando as idéias do papel
+image: "assets/img/tirando-os-projetos-do-papel.jpg"
+alt: "Tirando os projetos do papel"
+titleImage: "Tirando os projetos do papel"
 flag: "Dev"
 ---
 

@@ -6,29 +6,35 @@ tags:
 - desenvolvimento 
 - carreira
 intro: "Alguns passos que podem te ajudar a se tornar um desenvolver front-end."
-image: "assets/img/post-1.jpg"
-alt: "Desenvolvimento web"
+image: "assets/img/como-se-tornar-um-desenvolvedor-front-end.jpg"
+alt: "Como se tornar um desenvolvedor front-end"
+titleImage: "Como se tornar um desenvolvedor front-end"
 flag: "Dev"
 ---
 
 ## Índice
 
 1. [Introdução](#intro)
-2. [HTML e CSS](#html-e-css)
-3. [JavaScript](#javascript)
-4. [Frameworks JS](#frameworks-js)
-5. [Pré Processadores](#pre-processadores)
-6. [Automatizadores](#automatizadores)
-7. [Gerenciadores de Dependências](#gerenciadores-de-dependencias)
-8. [Versionamento](#versionamento)
-9. [Inglês](#ingles)
-10. [Compartilhando Informação](#compartilhando-informacao)
+2. [Desenvolvedor front-end o que é?](#dev-front-end)
+3. [HTML e CSS](#html-e-css)
+4. [JavaScript](#javascript)
+5. [Frameworks JS](#frameworks-js)
+6. [Pré Processadores](#pre-processadores)
+7. [Automatizadores](#automatizadores)
+8. [Gerenciadores de Dependências](#gerenciadores-de-dependencias)
+9. [Versionamento](#versionamento)
+10. [Inglês](#ingles)
+11. [Compartilhando Informação](#compartilhando-informacao)
 
 <h2 id="intro">Introdução</h2>
 
 O objetivo desse post é fazer um pequeno guia para você se tornar um desenvolvedor front-end, isso não é o único caminho mas é o que eu trilhei e que vejo a maioria dos bons desenvolvedores seguirem, portanto se você seguir cada etapa e se dedicar vai ter ao menos bagagem para se candidatar a uma vaga ou trabalhar como freelancer.
 
 Para tudo e vem comigo!
+
+<h2 id="dev-front-end">Desenvolvedor front-end o que é?</h2>
+
+O que é e o que faz um desenvolvedor front-end? antes de iniciar a nossa jornada jovem padawan é necessário entender o que esse profissional faz, o que chamamos de front é toda a camada de apresentação da aplicação em termos técnicos são as nossas Views, ou seja o trabalho do front-end é justamente tornar essa camada mais apresentável se preocupando com a experiência do usuário e também a usabilidade.
 
 <h2 id="html-e-css">HTML e CSS</h2>
 
