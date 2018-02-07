@@ -17,3 +17,6 @@ github_username: brenofsena
 # Build settings
 markdown: kramdown
 permalink: /:title
+
+plugins:
+  - jekyll-sitemap
