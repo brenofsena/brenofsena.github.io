@@ -14,7 +14,7 @@ sass:
   style: compressed
 
 compress_html:
-  clippings: all23
+  clippings: all
   comments: all
   endings: []
   profile: false
