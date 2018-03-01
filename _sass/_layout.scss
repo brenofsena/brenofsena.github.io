@@ -52,13 +52,13 @@
   background: url(/assets/img/banner.jpg) fixed no-repeat center;
   background-size: cover;
   -webkit-filter: grayscale(100);
-          filter: grayscale(100);
+  filter: grayscale(100);
   .banner-title {
     color: #fff;
     font-size: 4rem;
     text-align: center;
     font-weight: 600;
-    font-family: $secondary-font;
+    font-family: $primary-font;
     @media only screen and (max-width: 640px) {
       font-size: 2em;
     }
@@ -68,7 +68,7 @@
     color: #fff;
     font-size: 1.5em;
     font-weight: 400;
-    font-family: $secondary-font;
+    font-family: $primary-font;
   }
 }
 
@@ -78,14 +78,12 @@
   .section-title {
     color: #fff;
   }
-
-  .portfolio-item{
+  .portfolio-item {
     margin-bottom: 40px;
-    &:last-child{
+    &:last-child {
       margin-bottom: 0;
     }
   }
-
   .portfolio-image {
     overflow: hidden;
     img {
@@ -117,9 +115,8 @@
   }
   .portfolio-btn {
     border: solid 2px #fff;
-    display: block;
+    display: inline-block;
     padding: 10px;
-    max-width: 100px;
     font-size: .9em;
     text-decoration: none;
     color: #fff;
@@ -141,7 +138,7 @@
     box-shadow: 0px 0px 42px -10px rgba(0, 0, 0, 0.40);
     position: relative;
     margin-bottom: 20px;
-    a{
+    a {
       text-decoration: none;
     }
     .card-flag {
@@ -199,7 +196,7 @@
         -webkit-transition: all .2s ease-out;
         transition: all .2s ease-out;
         -webkit-filter: grayscale(100%);
-                filter: grayscale(100%)
+        filter: grayscale(100%)
       }
     }
     .card-content {
@@ -239,7 +236,7 @@
         -o-object-fit: cover;
         object-fit: cover;
         -webkit-filter: grayscale(85%);
-                filter: grayscale(85%);
+        filter: grayscale(85%);
       }
     }
     .post-header-content {
@@ -356,6 +353,18 @@
       font-size: .9em;
       font-weight: 400;
     }
+    &.skills {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin: 20px 0;
+      li{
+        margin-right: 10px;
+        color: #959595;
+      }
+    }
   }
 }
 
@@ -380,8 +389,8 @@
     }
   }
   .social {
+    margin: 20px 0;
     .nav {
-      margin: 20px 0;
       li {
         padding: 0 5px;
         a {
@@ -392,6 +401,7 @@
           text-decoration: none;
           -webkit-transition: all .2s ease-out;
           transition: all .2s ease-out;
+          display: block;
           &:hover {
             background: $secondary-color;
             color: #fff;
@@ -439,7 +449,6 @@
       top: 0;
       bottom: 0;
       background: rgba(0, 0, 0, 0.9);
-      max-width: 300px;
       width: 100%;
       z-index: 999;
       left: -100%;
@@ -448,13 +457,15 @@
       -webkit-transition: all .2s ease-out;
       transition: all .2s ease-out;
       .nav {
-        margin: 30px;
+        width: 100%;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
         li {
-          padding: 10px;
+          text-align: center;
+          margin-bottom: 30px;
+          padding: 0;
         }
       }
     }
