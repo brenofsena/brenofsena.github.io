@@ -59,6 +59,7 @@
     text-align: center;
     font-weight: 600;
     font-family: $primary-font;
+    word-break: break-word;
     @media only screen and (max-width: 640px) {
       font-size: 2em;
     }
