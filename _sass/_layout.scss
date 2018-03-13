@@ -57,9 +57,10 @@
     color: #fff;
     font-size: 4rem;
     text-align: center;
-    font-weight: 600;
-    font-family: $primary-font;
+    font-weight: 700;
     word-break: break-word;
+    margin: 0 0 10px;
+    text-shadow: rgb(0, 0, 0) -5px 5px 10px;
     @media only screen and (max-width: 640px) {
       font-size: 2em;
     }
@@ -204,7 +205,7 @@
       padding: 10px;
       .card-time {
         color: #959595;
-        font-size: .8em;
+        font-size: .9em;
         margin: 10px 0;
       }
       .card-title {
@@ -212,7 +213,7 @@
         font-size: 1.2rem;
         display: block;
         line-height: 20px;
-        font-weight: 600;
+        font-weight: 700;
         color: $primary-color;
       }
       .card-text {
@@ -351,7 +352,7 @@
     li {
       color: #8a8a8a;
       margin: 5px 0;
-      font-size: .9em;
+      font-size: 1em;
       font-weight: 400;
     }
     &.skills {
