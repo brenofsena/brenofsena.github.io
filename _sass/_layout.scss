@@ -84,10 +84,12 @@
   .section-title {
     color: #fff;
   }
-  .portfolio-item {
-    margin-bottom: 40px;
-    &:last-child {
-      margin-bottom: 0;
+  .portfolio-items {
+    .portfolio-item{
+      margin-bottom: 40px;
+      &:last-child{
+        margin-bottom: 0;
+      }
     }
   }
   .portfolio-image {
