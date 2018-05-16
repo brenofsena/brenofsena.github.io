@@ -50,19 +50,25 @@
 }
 
 .banner {
-  background: url(/assets/img/banner.jpg) fixed no-repeat center;
+  background: url(/assets/img/space.jpg) fixed no-repeat center;
   background-size: cover;
-  -webkit-filter: grayscale(100);
-  filter: grayscale(100);
   .banner-title {
     color: #fff;
     font-size: 3rem;
     text-align: center;
     font-weight: 700;
     word-break: break-word;
-    margin: 0 0 10px;
+    margin: 0 0 20px;
     font-family: $secondary-font;
     text-transform: uppercase;
+    &:after {
+      content: "";
+      width: 100px;
+      height: 1px;
+      background: #00e0d0;
+      margin: 10px auto;
+      display: block;
+    }
     @media only screen and (max-width: 640px) {
       font-size: 1.6rem;
     }
@@ -87,9 +93,9 @@
     color: #fff;
   }
   .portfolio-items {
-    .portfolio-item{
+    .portfolio-item {
       margin-bottom: 40px;
-      &:last-child{
+      &:last-child {
         margin-bottom: 0;
       }
     }
@@ -377,7 +383,7 @@
       -ms-flex-wrap: wrap;
       flex-wrap: wrap;
       margin: 20px 0;
-      li{
+      li {
         margin-right: 10px;
         color: #959595;
       }
