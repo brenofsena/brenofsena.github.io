@@ -57,36 +57,42 @@
 .banner {
   background: url(/assets/img/computer.jpg) fixed no-repeat center;
   background-size: cover;
-  .banner-title {
-    color: #fff;
-    font-size: 3rem;
-    text-align: center;
-    font-weight: 700;
-    word-break: break-word;
-    margin: 0 0 20px;
-    font-family: $secondary-font;
-    text-transform: uppercase;
-    &:after {
-      content: "";
-      width: 100px;
-      height: 1px;
-      background: #00e0d0;
-      margin: 10px auto;
-      display: block;
+  article {
+    background: rgba(0,0,0,.7);
+    padding: 20px;
+    float: left;
+    .banner-title {
+      color: #fff;
+      font-size: 3rem;
+      text-align: left;
+      font-weight: 700;
+      word-break: break-word;
+      margin: 0 0 10px;
+      font-family: $secondary-font;
+      text-transform: uppercase;
+      &:after {
+        content: "";
+        width: 100px;
+        height: 1px;
+        background: #00e0d0;
+        margin: 10px auto 10px 0;
+        display: block;
+      }
+      @media only screen and (max-width: 640px) {
+        font-size: 1.6rem;
+      }
     }
-    @media only screen and (max-width: 640px) {
-      font-size: 1.6rem;
-    }
-  }
-  .banner-text {
-    text-align: center;
-    color: #fff;
-    font-size: 1.4em;
-    font-weight: 400;
-    font-family: $primary-font;
-    text-transform: uppercase;
-    @media only screen and (max-width: 640px) {
-      font-size: 1.2rem;
+    .banner-text {
+      text-align: left;
+      color: #fff;
+      font-size: 1.4em;
+      font-weight: 400;
+      font-family: $primary-font;
+      text-transform: uppercase;
+      margin: 0 0 10px;
+      @media only screen and (max-width: 640px) {
+        font-size: 1.2rem;
+      }
     }
   }
 }
