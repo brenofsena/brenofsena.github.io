@@ -20,7 +20,7 @@
 .header {
   background: $primary-color;
   &.home {
-    background: transparent;
+    background: rgba(0,0,0,.5);
     position: absolute;
     width: 100%;
   }
@@ -480,7 +480,7 @@
       left: 0;
       top: 0;
       bottom: 0;
-      background: rgba(0, 0, 0, 0.9);
+      background: rgba(0, 0, 0, .7);
       width: 100%;
       z-index: 999;
       left: -100%;
