@@ -1,0 +1,65 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+---
+
+<section class="page blog height-100">
+    <div class="container">
+        <div class="row">
+            <div class="flex-12 flex-m-12">
+                    <h1>{{ page.title }}</h1>
+            </div>
+        </div>
+
+        <div class="row cards">
+                {% if site.posts.size == 0 %}
+                <h2>Nenhum post encontrado =(</h2>
+                {% else %}
+                {% for post in site.posts %}
+                <div class="flex-4 flex-m-12">
+                    <article class="card">
+                        <a href="{{ post.url }}">
+                            <div class="card-flag">
+                            <span>{{post.flag}}</span>
+                            </div>
+    
+                            <figure class="card-figure">
+                            <img src="/{{ post.image }}">
+                            </figure>
+                            
+                            <div class="card-content">
+                            <time class="card-time">
+                                {{ post.date | date: "%d" }} de 
+                                {% assign m = post.date | date: "%-m" %}
+                                {% case m %}
+                                {% when '1' %}Janeiro
+                                {% when '2' %}Fevereiro
+                                {% when '3' %}Março
+                                {% when '4' %}Abril
+                                {% when '5' %}Maio
+                                {% when '6' %}Junho
+                                {% when '7' %}Julho
+                                {% when '8' %}Agosto
+                                {% when '9' %}Setembro
+                                {% when '10' %}Outubro
+                                {% when '11' %}Novembro
+                                {% when '12' %}Dezembro
+                                {% endcase %}
+                                de {{ post.date | date: "%Y" }}
+                            </time>
+                            <h2 class="card-title">
+                                {{ post.title }}
+                            </h2>
+                            <p class="card-text">
+                                {{ post.intro }}
+                            </p>
+                        </div>
+                        </a>
+                    </article>
+                </div>
+            {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+</section>
