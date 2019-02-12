@@ -16,7 +16,7 @@ layout: default
 
 <section class="portfolio">
   <div class="container">
-    
+
     <div class="row">
       <div class="flex-m-12">
         <h1 class="section-title">
@@ -24,43 +24,45 @@ layout: default
         </h1>
       </div>
     </div>
-    
+
     <div class="row portfolio-item align-items-center">
       <div class="flex-6 flex-m-12">
-            <figure class="portfolio-image">
-                <img src="/assets/img/portfolio/portfolio-profline.jpg" alt="Site Profline" title="Site de cotações Profline">
-            </figure>
-        </div>
+        <figure class="portfolio-image">
+          <img src="/assets/img/portfolio/profline.jpg" alt="Site Profline" title="Site de cotações Profline">
+        </figure>
+      </div>
 
-        <div class="flex-6 flex-m-12">
-          <article>
-            <h2 class="portfolio-title">
-              Profline
-            </h2>
-            <p class="portfolio-text">
-              Site de cotações desenvolvido em Wordpress e Woocommerce com o time da Agência Chiclé Digital.
-            </p>
-            <a href="http://www.proflinehigiene.com.br/" target="_blank" rel="nofollow" title="Ver Projeto" class="portfolio-btn">Ver Projeto</a>
-          </article>
-        </div>
+      <div class="flex-6 flex-m-12">
+        <article>
+          <h2 class="portfolio-title">
+            Profline
+          </h2>
+          <p class="portfolio-text">
+            Site de cotações desenvolvido em Wordpress e Woocommerce com a Agência Chiclé Digital.
+          </p>
+          <a href="http://www.proflinehigiene.com.br/" target="_blank" rel="nofollow" title="Ver Projeto" class="portfolio-btn">Ver
+            Projeto</a>
+        </article>
+      </div>
     </div>
 
     <div class="row portfolio-item align-items-center column-m-reverse">
       <div class="flex-6 flex-m-12">
         <article>
           <h2 class="portfolio-title">
-            Arte&amp;Verbo
+            Tempero Fit
           </h2>
           <p class="portfolio-text">
-            Site desenvolvido na plataforma Wordpress em parceria com a CHG Design.
+            E-commerce desenvolvido na plataforma Xtech com a agência Chiclé Digital.
           </p>
-          <a href="http://arteeverbo.com.br/" target="_blank" rel="nofollow" title="Ver Projeto" class="portfolio-btn">Ver Projeto</a>
+          <a href="https://www.temperofitrio.com.br" target="_blank" rel="nofollow" title="Ver Projeto" class="portfolio-btn">Ver
+            Projeto</a>
         </article>
       </div>
       <div class="flex-6 flex-m-12">
-          <figure class="portfolio-image">
-              <img src="/assets/img/portfolio/portfolio-arteeverbo.jpg" alt="Site Arte&amp;Verbo" title="Site Evangélico">
-          </figure>
+        <figure class="portfolio-image">
+          <img src="/assets/img/portfolio/tempero-fit.jpg" alt="E-commerce Tempero Fit" title="E-commerce Tempero Fit">
+        </figure>
       </div>
     </div>
   </div>
@@ -68,61 +70,61 @@ layout: default
 
 <section class="cards height-80">
   <div class="container">
-      <div class="row">
-          <div class="flex-m-12">
-            <h1 class="section-title">
-              Últimas Postagens
-            </h1>
-          </div>
-
-            {% if site.posts.size == 0 %}
-              <h2>Nenhum post encontrado =(</h2>
-            {% else %}
-              {% for post in site.posts %}
-              <div class="flex-4 flex-m-12">
-                  
-                    <article class="card">
-                      <a href="{{ post.url }}">
-                        <div class="card-flag">
-                          <span>{{post.flag}}</span>
-                        </div>
-
-                        <figure class="card-figure">
-                          <img src="/{{ post.image }}">
-                        </figure>
-                        
-                        <div class="card-content">
-                          <time class="card-time">
-                            {{ post.date | date: "%d" }} de 
-                            {% assign m = post.date | date: "%-m" %}
-                              {% case m %}
-                              {% when '1' %}Janeiro
-                              {% when '2' %}Fevereiro
-                              {% when '3' %}Março
-                              {% when '4' %}Abril
-                              {% when '5' %}Maio
-                              {% when '6' %}Junho
-                              {% when '7' %}Julho
-                              {% when '8' %}Agosto
-                              {% when '9' %}Setembro
-                              {% when '10' %}Outubro
-                              {% when '11' %}Novembro
-                              {% when '12' %}Dezembro
-                              {% endcase %}
-                            de {{ post.date | date: "%Y" }}
-                          </time>
-                          <h2 class="card-title">
-                            {{ post.title }}
-                          </h2>
-                          <p class="card-text">
-                            {{ post.intro }}
-                          </p>
-                      </div>
-                    </a>
-                  </article>
-              </div>
-          {% endfor %}
-        {% endif %}
+    <div class="row">
+      <div class="flex-m-12">
+        <h1 class="section-title">
+          Últimas Postagens
+        </h1>
       </div>
+
+      {% if site.posts.size == 0 %}
+      <h2>Nenhum post encontrado =(</h2>
+      {% else %}
+      {% for post in site.posts %}
+      <div class="flex-4 flex-m-12">
+
+        <article class="card">
+          <a href="{{ post.url }}">
+            <div class="card-flag">
+              <span>{{post.flag}}</span>
+            </div>
+
+            <figure class="card-figure">
+              <img src="/{{ post.image }}">
+            </figure>
+
+            <div class="card-content">
+              <time class="card-time">
+                {{ post.date | date: "%d" }} de
+                {% assign m = post.date | date: "%-m" %}
+                {% case m %}
+                {% when '1' %}Janeiro
+                {% when '2' %}Fevereiro
+                {% when '3' %}Março
+                {% when '4' %}Abril
+                {% when '5' %}Maio
+                {% when '6' %}Junho
+                {% when '7' %}Julho
+                {% when '8' %}Agosto
+                {% when '9' %}Setembro
+                {% when '10' %}Outubro
+                {% when '11' %}Novembro
+                {% when '12' %}Dezembro
+                {% endcase %}
+                de {{ post.date | date: "%Y" }}
+              </time>
+              <h2 class="card-title">
+                {{ post.title }}
+              </h2>
+              <p class="card-text">
+                {{ post.intro }}
+              </p>
+            </div>
+          </a>
+        </article>
+      </div>
+      {% endfor %}
+      {% endif %}
+    </div>
   </div>
 </section>

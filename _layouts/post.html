@@ -12,23 +12,23 @@ comments: true
 		<div class="post-header-content">
 			<div class="container">
 				<time class="post-time">
-					{{ page.date | date: "%d" }} de 
+					{{ page.date | date: "%d" }} de
 					{% assign m = page.date | date: "%-m" %}
-						{% case m %}
-						{% when '1' %}Janeiro
-						{% when '2' %}Fevereiro
-						{% when '3' %}Março
-						{% when '4' %}Abril
-						{% when '5' %}Maio
-						{% when '6' %}Junho
-						{% when '7' %}Julho
-						{% when '8' %}Agosto
-						{% when '9' %}Setembro
-						{% when '10' %}Outubro
-						{% when '11' %}Novembro
-						{% when '12' %}Dezembro
-						{% endcase %}
-						de {{ page.date | date: "%Y" }}
+					{% case m %}
+					{% when '1' %}Janeiro
+					{% when '2' %}Fevereiro
+					{% when '3' %}Março
+					{% when '4' %}Abril
+					{% when '5' %}Maio
+					{% when '6' %}Junho
+					{% when '7' %}Julho
+					{% when '8' %}Agosto
+					{% when '9' %}Setembro
+					{% when '10' %}Outubro
+					{% when '11' %}Novembro
+					{% when '12' %}Dezembro
+					{% endcase %}
+					de {{ page.date | date: "%Y" }}
 				</time>
 				<h1 class="post-title">
 					{{ page.title }}
@@ -49,7 +49,7 @@ comments: true
 	<div class="container">
 		<div class="row">
 			<div class="flex-m-12">
-					{% include share.html %}
+				{% include share.html %}
 			</div>
 		</div>
 	</div>
@@ -59,16 +59,22 @@ comments: true
 	<div class="container">
 		<div class="row">
 			<div class="flex-m-12">
-					<div id="disqus_thread"></div>
-					<script>
-					(function() { // DON'T EDIT BELOW THIS LINE
-						var d = document, s = d.createElement('script');
+				<div id="disqus_thread"></div>
+				<script>
+					(function () { // DON'T EDIT BELOW THIS LINE
+						var d = document,
+							s = d.createElement('script');
 						s.src = '//breno-sena.disqus.com/embed.js';
 						s.setAttribute('data-timestamp', +new Date());
 						(d.head || d.body).appendChild(s);
 					})();
-					</script>
-					<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+				</script>
+				<noscript>Please enable JavaScript to view the
+					<a href="https://disqus.com/?ref_noscript">
+						comments powered by Disqus.
+					</a>
+				</noscript>
 			</div>
 		</div>
 	</div>

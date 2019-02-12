@@ -3,8 +3,8 @@ title: Tirando os projetos do papel
 layout: post
 date: 2017-02-24 21:01:36
 intro: "Como parar de procrastinar e finalmente fazer aquele projeto acontecer."
-tags: 
-- carreira 
+tags:
+- carreira
 - vida pessoal
 image: "assets/img/tirando-os-projetos-do-papel.jpg"
 alt: "Tirando os projetos do papel"
@@ -20,7 +20,7 @@ Temos o instinto natural de querer criar soluções o tempo todo, seja para nós
 
 ## Parar de procrastinar é o começo
 
-Fazendo uma pesquisa rápida no tio google temos a seguinte definição da palavra procrastinar 
+Fazendo uma pesquisa rápida no tio google temos a seguinte definição da palavra procrastinar
 <blockquote cite="http://google.com.br">
 	<p>"transferir para outro dia ou deixar para depois; adiar, delongar, postergar, protrair."</p>
 </blockquote>

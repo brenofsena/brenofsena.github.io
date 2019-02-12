@@ -2,8 +2,8 @@
 title: Como se tornar um desenvolvedor front-end
 layout: post
 date: 2018-01-26 19:45:00
-tags: 
-- desenvolvimento 
+tags:
+- desenvolvimento
 - carreira
 intro: "Alguns passos que podem te ajudar a se tornar um desenvolver front-end."
 image: "assets/img/como-se-tornar-um-desenvolvedor-front-end.jpg"

@@ -3,26 +3,26 @@
 		<div class="row align-items-center">
 
 			<div class="flex-2 flex-m-8">
-					{% if page.url == "/" %}
-					<h1 class="logo">
-						<a href="/">
-							<img src="/assets/img/logo.svg" alt="Breno Sena Desenvolvedor Web" title="Breno Sena">
-						</a>
-					</h1>
+				{% if page.url == "/" %}
+				<h1 class="logo">
+					<a href="/">
+						<img src="/assets/img/logo.svg" alt="Breno Sena Desenvolvedor Web" title="Breno Sena">
+					</a>
+				</h1>
 				{% else %}
-					<div class="logo">
-						<a href="/">
-							<img src="/assets/img/logo.svg" alt="Breno Sena Desenvolvedor Web" title="Breno Sena">
-						</a>
-					</div>
+				<div class="logo">
+					<a href="/">
+						<img src="/assets/img/logo.svg" alt="Breno Sena Desenvolvedor Web" title="Breno Sena">
+					</a>
+				</div>
 				{% endif %}
 			</div>
-			
+
 			<div class="flex-10 flex-m-4">
 				<button class="menu-open">
 					<i class="fas fa-bars"></i>
 				</button>
-			
+
 				<nav class="menu">
 					<button class="menu-close">
 						<i class="fas fa-times"></i>
@@ -31,7 +31,7 @@
 						<li>
 							<a href="/">Home</a>
 						</li>
-	
+
 						{% for page in site.pages %} {% unless page.exclude %} {% if page.title %}
 						<li>
 							<a href="{{ page.url }}">{{ page.title }}</a>
