@@ -2,11 +2,11 @@
 layout: default
 ---
 
-<section class="banner height-100 d-flex align-items-center">
+<section class="banner _height-100 _d-flex _align-items-center">
   <div class="container">
-    <article>
-      <h1 class="banner-title">Desenvolvimento Web</h1>
-      <p class="banner-text">
+    <article class="banner-content">
+      <h1 class="title">Desenvolvimento Web</h1>
+      <p class="text">
         Além das linhas de código
         <i class="fas fa-code"></i>
       </p>
@@ -18,74 +18,74 @@ layout: default
   <div class="container">
 
     <div class="row">
-      <div class="flex-m-12">
-        <h1 class="section-title">
+      <div class="col-sm-12">
+        <h1 class="section-title -white">
           Portfólio
         </h1>
       </div>
     </div>
 
-    <div class="row portfolio-item align-items-center">
-      <div class="flex-6 flex-m-12">
-        <figure class="portfolio-image">
-          <img src="/assets/img/portfolio/brastemp-gourmand.png" alt="Brastemp Gourmand" title="Brastemp Gourmand">
+    <div class="row portfolio-item _align-items-center">
+      <div class="col-6 col-sm-12">
+        <figure class="frame">
+          <img class="image" src="/assets/img/portfolio/brastemp-gourmand.png" alt="Brastemp Gourmand" title="Brastemp Gourmand">
         </figure>
       </div>
 
-      <div class="flex-6 flex-m-12">
-        <article>
-          <h2 class="portfolio-title">
+      <div class="col-6 col-sm-12">
+        <article class="content">
+          <h2 class="title">
             Brastemp Gourmand
           </h2>
-          <p class="portfolio-text">
+          <p class="text">
             Desenvolvimento de landing page da linha gourmand da Brastemp na plataforma VTEX IO.
           </p>
           <a href="https://www.brastemp.com.br/linhas-especiais/brastemp-gourmand" target="_blank" rel="nofollow"
-            title="Ver Projeto" class="portfolio-btn">Ver
+            title="Ver Projeto" class="action">Ver
             Projeto</a>
         </article>
       </div>
     </div>
 
-    <div class="row portfolio-item align-items-center column-m-reverse">
-      <div class="flex-6 flex-m-12">
-        <article>
-          <h2 class="portfolio-title">
+    <div class="row portfolio-item _align-items-center _flex-column-sm-reverse">
+      <div class="col-6 col-sm-12">
+        <article class="content">
+          <h2 class="title">
             Brastemp Masterchef
           </h2>
-          <p class="portfolio-text">
+          <p class="text">
             Desenvolvimento de landing lage para a linha masterchef da Brastemp na plataforma VTEX IO.
           </p>
           <a href="https://www.brastemp.com.br/masterchefbrasil" target="_blank" rel="nofollow" title="Ver Projeto"
-            class="portfolio-btn">Ver
+            class="action">Ver
             Projeto</a>
         </article>
       </div>
-      <div class="flex-6 flex-m-12">
-        <figure class="portfolio-image">
-          <img src="/assets/img/portfolio/brastemp-masterchef.png" alt="Brastemp Masterchef"
+      <div class="col-6 col-sm-12">
+        <figure class="frame">
+          <img class="image" src="/assets/img/portfolio/brastemp-masterchef.png" alt="Brastemp Masterchef"
             title="Brastemp Masterchef">
         </figure>
       </div>
     </div>
 
-    <div class="row portfolio-item align-items-center">
-      <div class="flex-6 flex-m-12">
-        <figure class="portfolio-image">
-          <img src="/assets/img/portfolio/rihappy-baby.png" alt="Ri Happy Baby" title="Ri Happy Baby">
+    <div class="row portfolio-item _align-items-center">
+      <div class="col-6 col-sm-12">
+        <figure class="frame">
+          <img class="image" src="/assets/img/portfolio/rihappy-baby.png" alt="Ri Happy Baby" title="Ri Happy Baby">
         </figure>
       </div>
 
-      <div class="flex-6 flex-m-12">
-        <article>
-          <h2 class="portfolio-title">
+      <div class="col-6 col-sm-12">
+        <article class="content">
+          <h2 class="title">
             Ri Happy Baby
           </h2>
-          <p class="portfolio-text">
+          <p class="text">
             Desenvolvimento front-end da Ri Happy Baby na plataforma VTEX.
           </p>
           <a href="https://www.rihappy.com.br/bebes" target="_blank" rel="nofollow" title="Ver Projeto"
-            class="portfolio-btn">Ver
+            class="action">Ver
             Projeto</a>
         </article>
       </div>
@@ -94,10 +94,10 @@ layout: default
   </div>
 </section>
 
-<section class="cards height-80">
+<section class="cards _height-80">
   <div class="container">
     <div class="row">
-      <div class="flex-m-12">
+      <div class="col-sm-12">
         <h1 class="section-title">
           Últimas Postagens
         </h1>
@@ -107,20 +107,20 @@ layout: default
       <h2>Nenhum post encontrado =(</h2>
       {% else %}
       {% for post in site.posts %}
-      <div class="flex-4 flex-m-12">
+      <div class="col-4 col-sm-12">
 
         <article class="card">
           <a href="{{ post.url }}">
             <div class="card-flag">
-              <span>{{post.flag}}</span>
+              <span class="text">{{post.flag}}</span>
             </div>
 
             <figure class="card-figure">
-              <img src="/{{ post.image }}">
+              <img class="image" src="/{{ post.image }}">
             </figure>
 
             <div class="card-content">
-              <time class="card-time">
+              <time class="time">
                 {{ post.date | date: "%d" }} de
                 {% assign m = post.date | date: "%-m" %}
                 {% case m %}
@@ -139,10 +139,10 @@ layout: default
                 {% endcase %}
                 de {{ post.date | date: "%Y" }}
               </time>
-              <h2 class="card-title">
+              <h2 class="title">
                 {{ post.title }}
               </h2>
-              <p class="card-text">
+              <p class="text">
                 {{ post.intro }}
               </p>
             </div>

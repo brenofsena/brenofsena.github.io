@@ -7,11 +7,11 @@ comments: true
 <article class="post">
 	<header class="post-header">
 		<figure class="post-figure">
-			<img src="{{ page.image }}" alt="{{ page.alt }}" title="{{ page.titleImage }}">
+			<img class="image" src="{{ page.image }}" alt="{{ page.alt }}" title="{{ page.titleImage }}">
 		</figure>
 		<div class="post-header-content">
 			<div class="container">
-				<time class="post-time">
+				<time class="time">
 					{{ page.date | date: "%d" }} de
 					{% assign m = page.date | date: "%-m" %}
 					{% case m %}
@@ -30,7 +30,7 @@ comments: true
 					{% endcase %}
 					de {{ page.date | date: "%Y" }}
 				</time>
-				<h1 class="post-title">
+				<h1 class="title">
 					{{ page.title }}
 				</h1>
 			</div>
@@ -48,7 +48,7 @@ comments: true
 <section class="share">
 	<div class="container">
 		<div class="row">
-			<div class="flex-m-12">
+			<div class="col-sm-12">
 				{% include share.html %}
 			</div>
 		</div>
@@ -58,7 +58,7 @@ comments: true
 <section class="comments">
 	<div class="container">
 		<div class="row">
-			<div class="flex-m-12">
+			<div class="col-sm-12">
 				<div id="disqus_thread"></div>
 				<script>
 					(function () { // DON'T EDIT BELOW THIS LINE

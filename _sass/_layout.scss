@@ -16,12 +16,16 @@
     margin: 10px auto;
     display: block;
   }
+
+  &.-white {
+    color: #fff;
+  }
 }
 
 .header {
   background: $primary-color;
 
-  &.home {
+  &.-black {
     background: rgba(0, 0, 0, .5);
     position: absolute;
     width: 100%;
@@ -39,11 +43,11 @@
   }
 
   .menu {
-    .nav {
-      li {
+    >.menu-list {
+      >.item {
         padding: 0 10px;
 
-        a {
+        >.link {
           font-size: .9em;
           text-transform: uppercase;
           color: #fff;
@@ -65,12 +69,12 @@
   background: url(/assets/img/computador.jpg) fixed no-repeat center;
   background-size: cover;
 
-  article {
+  .banner-content {
     background: rgba(0, 0, 0, .7);
     padding: 20px;
     float: left;
 
-    .banner-title {
+    >.title {
       color: #fff;
       font-size: 2rem;
       text-align: left;
@@ -94,7 +98,7 @@
       }
     }
 
-    .banner-text {
+    >.text {
       text-align: left;
       color: #fff;
       font-size: 1em;
@@ -110,67 +114,65 @@
   padding: 30px 0;
   background: $primary-color;
 
-  .section-title {
-    color: #fff;
-  }
-
   .portfolio-item {
     margin-bottom: 40px;
 
     &:last-child {
       margin-bottom: 0;
     }
-  }
 
-  .portfolio-image {
-    overflow: hidden;
+    .frame {
+      overflow: hidden;
 
-    img {
-      -webkit-filter: grayscale(100%);
-      filter: grayscale(100%);
-      -webkit-transition: all .2s ease-out;
-      transition: all .2s ease-out;
-    }
+      >.image {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        -webkit-transition: all .2s ease-out;
+        transition: all .2s ease-out;
+      }
 
-    &:hover {
-      img {
-        -webkit-filter: grayscale(0);
-        filter: grayscale(0);
-        -webkit-transform: scale(1.1);
-        transform: scale(1.1);
+      &:hover {
+        >.image {
+          -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+          -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+        }
       }
     }
-  }
 
-  .portfolio-title {
-    color: #fff;
-    font-size: 1.2em;
-    font-weight: 700;
-    margin: 20px 0;
-    font-family: $secondary-font;
-  }
+    .content {
+      .title {
+        color: #fff;
+        font-size: 1.2em;
+        font-weight: 700;
+        margin: 20px 0;
+        font-family: $secondary-font;
+      }
 
-  .portfolio-text {
-    color: #fff;
-    font-size: .9em;
-    display: block;
-    margin: 20px 0;
-  }
+      .text {
+        color: #fff;
+        font-size: .9em;
+        display: block;
+        margin: 20px 0;
+      }
 
-  .portfolio-btn {
-    border: solid 2px #fff;
-    display: inline-block;
-    padding: 10px;
-    font-size: .9em;
-    text-decoration: none;
-    color: #fff;
-    -webkit-transition: all .2s ease-out;
-    transition: all .2s ease-out;
-    font-weight: 600;
+      .action {
+        border: solid 2px #fff;
+        display: inline-block;
+        padding: 10px;
+        font-size: .9em;
+        text-decoration: none;
+        color: #fff;
+        -webkit-transition: all .2s ease-out;
+        transition: all .2s ease-out;
+        font-weight: 600;
 
-    &:hover {
-      background: #fff;
-      color: $primary-color;
+        &:hover {
+          background: #fff;
+          color: $primary-color;
+        }
+      }
     }
   }
 }
@@ -185,10 +187,6 @@
     position: relative;
     margin-bottom: 20px;
 
-    a {
-      text-decoration: none;
-    }
-
     .card-flag {
       position: absolute;
       right: -5px;
@@ -199,7 +197,7 @@
       height: 75px;
       text-align: right;
 
-      span {
+      > .text {
         font-size: .75rem;
         font-weight: bold;
         color: #fff;
@@ -245,7 +243,7 @@
     .card-figure {
       overflow: hidden;
 
-      img {
+      > .image {
         -webkit-transition: all .2s ease-out;
         transition: all .2s ease-out;
         -webkit-filter: grayscale(100%);
@@ -256,13 +254,13 @@
     .card-content {
       padding: 10px;
 
-      .card-time {
+      > .time {
         color: #959595;
         font-size: .9em;
         margin: 10px 0;
       }
 
-      .card-title {
+      > .title {
         margin: 10px 0;
         font-size: 1.2rem;
         display: block;
@@ -272,7 +270,7 @@
         font-family: $secondary-font;
       }
 
-      .card-text {
+      > .text {
         margin: 10px 0;
         color: #959595;
         font-weight: 400;
@@ -289,7 +287,7 @@
     .post-figure {
       height: 200px;
 
-      img {
+      > .image {
         position: absolute;
         width: 100%;
         height: 200px;
@@ -307,12 +305,12 @@
       transform: translateY(-50%);
       width: 100%;
 
-      .post-time {
+      .time {
         color: #fff;
         font-size: .9em;
       }
 
-      .post-title {
+      .title {
         color: #fff;
         font-size: 1.6rem;
         font-family: $secondary-font;
@@ -615,7 +613,7 @@
         width: 100%;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-        -ms-flex-direction: column;
+        -ms-col-direction: column;
         flex-direction: column;
 
         li {
@@ -643,7 +641,7 @@
     }
   }
 
-  .menu-active {
+  .-menu-active {
     .menu {
       left: 0;
       visibility: visible;

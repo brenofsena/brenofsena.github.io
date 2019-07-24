@@ -4,10 +4,10 @@ title: Blog
 permalink: /blog/
 ---
 
-<section class="page blog height-100">
+<section class="page blog _height-100">
   <div class="container">
     <div class="row">
-      <div class="flex-12 flex-m-12">
+      <div class="col-12 col-sm-12">
         <h1>{{ page.title }}</h1>
       </div>
     </div>
@@ -17,19 +17,19 @@ permalink: /blog/
       <h2>Nenhum post encontrado =(</h2>
       {% else %}
       {% for post in site.posts %}
-      <div class="flex-4 flex-m-12">
+      <div class="col-4 col-sm-12">
         <article class="card">
           <a href="{{ post.url }}">
             <div class="card-flag">
-              <span>{{post.flag}}</span>
+              <span class="text">{{post.flag}}</span>
             </div>
 
             <figure class="card-figure">
-              <img src="/{{ post.image }}">
+              <img class="image" src="/{{ post.image }}">
             </figure>
 
             <div class="card-content">
-              <time class="card-time">
+              <time class="time">
                 {{ post.date | date: "%d" }} de
                 {% assign m = post.date | date: "%-m" %}
                 {% case m %}
@@ -48,10 +48,10 @@ permalink: /blog/
                 {% endcase %}
                 de {{ post.date | date: "%Y" }}
               </time>
-              <h2 class="card-title">
+              <h2 class="title">
                 {{ post.title }}
               </h2>
-              <p class="card-text">
+              <p class="text">
                 {{ post.intro }}
               </p>
             </div>

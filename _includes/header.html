@@ -1,8 +1,8 @@
-<header class="header {% if page.url == "/" %}home{% endif %}">
+<header class="header {% if page.url == "/" %}-black{% endif %}">
 	<div class="container">
-		<div class="row align-items-center">
+		<div class="row _align-items-center">
 
-			<div class="flex-2 flex-m-8">
+			<div class="col-2 col-sm-8">
 				{% if page.url == "/" %}
 				<h1 class="logo">
 					<a href="/">
@@ -18,7 +18,7 @@
 				{% endif %}
 			</div>
 
-			<div class="flex-10 flex-m-4">
+			<div class="col-10 col-sm-4">
 				<button class="menu-open">
 					<i class="fas fa-bars"></i>
 				</button>
@@ -27,14 +27,15 @@
 					<button class="menu-close">
 						<i class="fas fa-times"></i>
 					</button>
-					<ul class="nav justify-content-end">
-						<li>
-							<a href="/">Home</a>
+					
+					<ul class="menu-list nav _justify-content-end">
+						<li class="item">
+							<a class="link" href="/">Home</a>
 						</li>
 
 						{% for page in site.pages %} {% unless page.exclude %} {% if page.title %}
-						<li>
-							<a href="{{ page.url }}">{{ page.title }}</a>
+						<li class="item">
+							<a class="link" href="{{ page.url }}">{{ page.title }}</a>
 						</li>
 						{% endif %} {% endunless %} {% endfor %}
 					</ul>
